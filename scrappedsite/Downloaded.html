@@ -1,0 +1,2654 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head id="ctl00_ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><title>
+	Intellicast - Islamabad Weather Report in Pakistan
+</title><meta name="viewport" content="width=device-width,initial-scale=1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="description" content="Intellicast.com: The Authority in Expert Weather" /><meta name="google-site-verification" content="Ty8E9HwyYpwnoH6SWxOoDkwWIpfXZbnXYxSKIJKinLw" /><meta name="google-site-verification" content="OwqzWim3JgPf7WONV8sYyMir93oTT-JmWDKQW-IApCI" /><meta name="verify-v1" content="bwhh8UmywoDXIeujVrNoVWPt5FmUdjfYgs0MgjMjouc=" /><meta name="msvalidate.01" content="2625493FFF704B18B25610DED3DC742E" /><meta name="y_key" content="66d7db7fca59b234" /><meta http-equiv="PICS-Label" content="(PICS-1.1 &quot;http://www.rsac.org/ratingsv01.html&quot; l gen true comment &quot;RSACi North America Server&quot; for &quot;http://www.intellicast.com&quot; on &quot;1998.08.31T21:19-0800&quot; r (n 0 s 0 v 0 l 0))&quot;" /><meta http-equiv="cache-control" content="no-cache" /><meta http-equiv="expires" content="0" /><meta http-equiv="pragma" content="no-cache" /><meta id="ctl00_ctl00_adsmetrics_zone" name="adsmetrics_zone" value="home" /><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /><link rel="icon" href="/favicon.ico" type="image/x-icon" /><link href="http://images.intellicast.com/Styles/normalize.rexive.css" rel="stylesheet" /><link href="http://images.intellicast.com/Styles/main_20160121.css" rel="stylesheet" /><link href="http://images.intellicast.com/Styles/Stylesheet_20131220.css" rel="stylesheet" />
+  
+  <script src="http://icons.wxug.com/scripts/modernizr/2.8.2/modernizr.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script>
+  <script>
+    try { // change delimiters to mustache syntax
+      _.templateSettings.interpolate = /\{\{=([\s\S]+?)\}\}/g;
+      _.templateSettings.evaluate = /\{\{([\s\S]+?)\}\}/g;
+      _.templateSettings.escape = /\{\{-([\s\S]+?)\}\}/g; 
+    } catch (e) { /*ignore*/ }
+  </script>
+  <script type="text/javascript">
+    // set global locationId
+    var locationId = 'PKXX0006';
+	</script>
+
+  <script type="text/javascript" src="http://images.intellicast.com/Scripts/ads_2016010601.js"></script>
+  
+
+	<!-- BEGIN New Ads -->
+	<script async src="https://tags.crwdcntrl.net/c/1884/cc.js?ns=_cc1884" id="LOTCC_1884"></script>
+	<script src="http://images.intellicast.com/Scripts/Vendor/twc-jquery-1.10.2.min.js"></script>
+	
+  <script src="http://images.intellicast.com/App_Scripts/ad.min.js"></script>
+  
+
+  <!-- Initialize PCO -->
+	<script>
+	  window.TWC.Configs = {
+	    'dsx': {
+	      'host': '//dsx.weather.com/', //'//dsx01.int.aws.weather.com/',
+	      'apiKey': '7bb1c920-7027-4289-9c96-ae5e263980bc',
+	      'locale': (TWC && TWC.Titan && TWC.Titan.locale) || 'en_US' || 'en_US',
+	      'cmsVersion': 'v1'
+	    },
+	    'image_poc': {
+	      'instart': 0,
+	      'akamai': 0
+	    },
+	    'debug': 1,
+	    'disable_lazyload': 0,
+	    'sunTurbo': {
+	      'baseUrl': 'http://devapi.weather.com',
+	      'apiKey': 'c1ea9f47f6a88b9acb43aba7faf389d4',
+	      'locale': 'en-US' || 'en-us'
+	    }
+	  };
+	  TWC.pco = TWC.initpco(
+				jQuery,
+				{
+				  'page': { locale: 'en-US' },
+				  'ad': {}
+				},
+				null,
+				null,
+				{ "error": "LOCATION_UNAVAILABLE" }
+		);
+	</script>
+
+  <!-- load Tealium -->
+	<script>
+	  $(document).ready(function () {
+	    TWC.Events.getEvent('utag_dataReady').done(function () {
+	      utag_data['js_page.positions'] = ['WX_Top300Variable', 'WX_WindowShade', 'WX_Mid300', 'WX_PaidSearch', 'WX_Tile1', 'WX_Tile2', 'WX_BottomLeaderboard'];
+	      jQuery.ajax({
+	        'url': 'https://tags.tiqcdn.com/utag/weather/intellicast/prod/utag.js',
+	        'dataType': 'script',
+	        'success': void (0),
+	        'cache': true
+	      });
+	    });
+	  });
+	</script>
+
+  <!-- Optimizely -->
+  <script src="https://cdn.optimizely.com/js/878051086.js"></script>
+
+  <!-- BEGIN Omniture -->
+
+  <script src="http://www.intellicast.com/Scripts/AppMeasurement.js"></script>
+
+  <script type="text/javascript">
+    (function () {
+      var _recentLocations = [];
+      
+      _recentLocations.push(1);
+        
+      _recentLocations = _recentLocations.join();
+
+      var _brdcrmb = window.location.pathname !== "/" ? window.location.pathname.substring(1).split("/") : ["Home"];
+      if (_brdcrmb.length > 1) {
+        _brdcrmb.unshift("Home");
+        _brdcrmb[_brdcrmb.length - 1] = _brdcrmb[_brdcrmb.length - 1].substring(0, _brdcrmb[_brdcrmb.length - 1].indexOf("."));
+      }
+      s.pageName = document.title;
+      s.prop2 = s.evar4 = _brdcrmb.join(" > "); // sub section e.g. home > maps > regionmap
+      s.prop6 = s.evar6 = "Islamabad::PK"; // city:state:country
+      s.prop8 = s.evar8 = ""; // dma id
+      s.prop9 = s.evar9 = ""; // zip code    
+      s.evar23 = ""; // marketing campaigns
+      s.evar24 = window.location.href; // full url
+      //SiteCatalyst Beacon Parameter: event15 Page View Event
+
+      s.prop10 = _recentLocations; // recent locations, number then location id
+      s.prop14 = ""; // intra-page actions
+      s.evar10 = _recentLocations; // saved locations, number then location id
+
+      s.evar11 = ""; // internal search term
+      s.evar12 = ""; // member type (member, non-member)
+      s.evar13 = ""; // weather map layer
+      s.evar14 = ""; // boating map layer
+      s.evar17 = ""; // search type (other or zip)
+      s.evar18 = ""; // search error message
+      /*
+        event7: Membership Signup
+        event8: Sign-Ins
+        event9: Sign-Outs
+      */
+      var s_code = s.t();
+      if (s_code) document.write(s_code);
+    }());
+  </script>
+
+  <!-- END Omniture -->
+
+  <!-- END New Ads -->
+	
+  <script src="http://images.intellicast.com/App_Scripts/icast.storage.min.js"></script>
+	<script src="http://images.intellicast.com/App_Scripts/jquery-autocomplete.min.js"></script>
+	
+	<script type="text/javascript">
+	  document.write(unescape("%3Cscript src='" + (("https:" == document.location.protocol) ? "https://ssl." : "http://www.") + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	  var linkTracker = _gat._getTracker("UA-17339464-1");
+	</script>
+	
+
+  <meta name="description" content="Islamabad, Pakistan weather conditions and forecast. Today's Islamabad, Pakistan weather report: current observations, hourly forecast, 10-day forecast calendar and chart." />
+  <meta name="keywords" content="Islamabad, Pakistan weather,  weather,  weather report, Islamabad, Pakistan weather forecast, Islamabad, Pakistan weather conditions, Islamabad, Pakistan weather" />
+  
+  <script src="//icons.wxug.com/scripts/wui-js/1.6.0/wui.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/js/foundation.min.js"></script>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/flot/0.8.2/jquery.flot.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/flot/0.8.2/jquery.flot.time.min.js"></script>
+  <script src="//icons.wxug.com/scripts/backbone-nested/1.1.2/backbone-nested.min.js"></script>
+  <script src="//icons.wxug.com/scripts/wui-backbone/0.4.3/wui.backbone.min.js"></script>
+  <script src="//icons.wxug.com/scripts/rAF/0.0.1/rAF.min.js"></script>
+  <script src="//icons.wxug.com/scripts/wui-flot/0.1.1/wui.flot.min.js"></script>
+  <script src="//icons.wxug.com/scripts/wui-citypage/0.3.0/wui.citypage.min.js"></script>
+  
+  
+    <script>
+      if(window.localStorage){
+        localStorage.setItem('icao', 'OPRN');
+      } else {
+        window.name = 'OPRN';
+      }
+    </script>
+  
+  
+  <link href="//images.intellicast.com/Styles/wu4_foundation_bundle.debug.v5.css" rel="stylesheet" />
+  <link href="//images.intellicast.com/Styles/omnibus.debug.v7.css" rel="stylesheet" />
+  
+  <link href="http://images.intellicast.com/Styles/weather_20140407.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="http://images.intellicast.com/Scripts/weather_20150220.js"></script>
+  <script type="text/javascript" src="http://images.intellicast.com/FusionCharts/FusionCharts.js"></script>
+  
+<!-- New Ads -->
+<style type="text/css">
+  .img-link{display:block;margin:10px 0;}
+  .img-link img{border:none;display:block;}
+</style>
+<!-- New Ads -->
+<script type="text/javascript">
+  jQuery(function ($) {
+    // Old Ads // *************** the 'wxmapAdTop.ClientID' part needs to be an inline C# call.  Removed at the moment - due to inability to comment out.
+    //var adFrame = document.getElementById('wxmapAdTop.ClientID');
+    // Old Ads //
+    // New Ads //
+    var adFrame = document.getElementById('wxmapAdTop');
+    // New Ads //
+    $(adFrame).load(function () {
+      setTimeout(iResize, 10);
+    });
+    function iResize() {
+      adFrame.style.height =
+          adFrame.contentWindow.document.body.offsetHeight + 'px';
+    }
+  });
+</script>
+
+	<!-- HTML5 Shim: IE8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body id="ctl00_ctl00_MasterBody">
+	
+
+	<!-- Begin comScore Tag -->
+	<script type="text/javascript">var _comscore = _comscore || []; _comscore.push({ c1: "2", c2: "9576127", c3: "", c4: window.location.href }); (function () { var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true; s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js"; el.parentNode.insertBefore(s, el); })();</script>
+	<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=9576127&c3=&c4=www.intellicast.com/Local/Weather.aspx?location=PKXX0006&c5=&c6=&c15=&cv=2.0&cj=1" alt="" style="position:absolute;top:-1000px;" /></noscript>
+	<!-- End comScore Tag -->
+	
+	<header id="header" class="site-header">
+		<div class="container">
+			<div class="row">
+				<div class="logo-wrapper">
+					<a href="/" class="logo">
+						<span class="sr-only">Intellicast.com</span>
+						<span class="slogan">The Authority in Expert Weather</span>
+					</a>
+				</div>
+				<div class="user-tools">
+					<div class="constants">
+						
+            <a href="/Subscriptions/Default.aspx">
+              <i style="position:relative;top:2px;left:-2px;display:inline-block;height:15px;width:16px;
+              background:no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAuElEQVQ4jcWSsQ3CMBBFn12giAmyAQukpYIpEEU6tqBlByoWyQLZgFUoeDRHlAQkAhT5kiXLd+//s2WYW0ndApsf+Qa1UWs1f7lqtclACyyAXUrpPmUBu2DaDJBSOgNLdf9p5uhZBkPuHmOCyRgeGHwyeQe/GIRuwLpvEvt11AYaGKh1THIACvWoHoEizrqePnR6FsZFtVTLccizTz2lMLhG8uXNlV7UC1ploALyVLgXlIHq/688ux5tZJukD8upVQAAAABJRU5ErkJggg==) center center;"></i>
+              Weather Emails</a>
+						<a class="alerts" href="/Storm/Severe/Bulletins.aspx"><i class="icon"></i>Alerts</a>
+						<a class="hurricane""" href="/Storm/Hurricane/Track.aspx"><i class="icon"></i>Hurricanes</a>
+						<a class="help" href="/Help/Default.aspx"><i class="icon"></i>Help</a>
+						
+					</div>
+					<div class="inav-flyout toggle-target">
+						
+							<a href="/Members/Login.aspx">Sign-In to Add to iNav</a>
+						
+					</div>
+					<form method="get" action="/Local/Default.aspx" class="ui-front location-search">
+						<input tabindex="1" class="blurred" id="locSearch" name="query" type="text" value="Enter City, State, Country or U.S. Zip code" autocomplete="off" />
+					</form>
+				</div>
+			</div>
+			<div class="row">
+				<div class="site-nav">
+					<ul class="nav">
+						<li><a href="/Local/Weather.aspx" class="toggle-btn">Local</a>
+							<ul>
+								<li><a href="/Local/Default.aspx">Find A Location</a></li>
+								<li><a href="/Local/Weather.aspx">Weather Report</a></li>
+								<li><a href="/Local/WxMap.aspx">Interactive Weather Map</a></li>
+								<li><a href="/Local/Forecast.aspx">Extended Forecast</a></li>
+								<li><a href="/Local/Hourly.aspx">Hourly Forecast</a></li>
+								<li><a href="/Local/Observation.aspx">Past Observations</a></li>
+								<li><a href="/Local/ObservationsSummary.aspx">Past Observations Summary</a></li>
+								<li><a href="/Local/History.aspx">Historic Averages</a></li>
+							</ul>
+						</li>
+						<li><a href="/Local/WxMap.aspx" class="toggle-btn">Interactive</a>
+							<ul>
+								<li><a href="/Video/Player.aspx">Videos</a></li>
+                <li><a href="/Local/WxMap.aspx">Interactive Weather Map</a></li>
+								
+								<li><a href="/Local/WxMapSm.aspx">Interactive Map (Small)</a></li>
+								
+							</ul>
+						</li>
+						<li><a href="/National/Default.aspx" class="toggle-btn">National</a>
+							<ul>
+								<li><a href="/National/Default.aspx">National Home</a></li>
+								<li><a href="/National/Weather.aspx">Current Weather</a></li>
+								<li><a href="/National/ForecastToday.aspx">Today's Forecast</a></li>
+								<li><a href="/National/ForecastTomorrow.aspx">Tomorrow's Forecast</a></li>
+								<li><a href="/National/Radar/Default.aspx">Radar<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Radar/Current.aspx">Current Radar</a></li>
+										<li><a href="/National/Radar/Forecast.aspx">Forecast Radar</a></li>
+										<li><a href="/National/Radar/Summary.aspx">Radar Summary</a></li>
+										<li><a href="/National/Radar/Yesterday.aspx">Yesterday's Radar Loop</a></li>
+										<li><a href="/National/Radar/OneKM.aspx">1Km Radar</a></li>
+										<li><a href="/National/Radar/Metro.aspx">Metro Radar</a></li>
+									</ul>
+								</li>
+								<li><a href="/National/Nexrad/Default.aspx">Nexrad<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Nexrad/BaseReflectivity.aspx">Base Reflectivity</a></li>
+										<li><a href="/National/Nexrad/RadialVelocity.aspx">Radial Velocity</a></li>
+									</ul>
+								</li>
+								<li><a href="/National/Surface/Default.aspx">Surface Analysis<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Surface/Current.aspx">Current Surface Analysis</a></li>
+										<li><a href="/National/Surface/Mixed.aspx">Mixed Surface Analysis</a></li>
+										<li><a href="/National/Surface/Forecast12.aspx">12-Hour Surface Forecast</a></li>
+										<li><a href="/National/Surface/Forecast24.aspx">24-Hour Surface Forecast</a></li>
+										<li><a href="/National/Surface/Forecast36.aspx">36-Hour Surface Forecast</a></li>
+										<li><a href="/National/Surface/Forecast48.aspx">48-Hour Surface Forecast</a></li>
+									</ul>
+								</li>
+								<li><a href="/National/Satellite/Default.aspx">Satellite<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Satellite/Infrared.aspx">National Infrared Satellite</a></li>
+										<li><a href="/National/Satellite/Regional.aspx">Regional Infrared Satellite</a></li>
+										<li><a href="/National/Satellite/Visible.aspx">Visible Satellite</a></li>
+										<li><a href="/National/Satellite/WaterVapor.aspx">Water Vapor</a></li>
+									</ul>
+								</li>
+								<li><a href="/National/Temperature/Default.aspx">Temperature<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Temperature/Current.aspx">Current Temperatures</a></li>
+										<li><a href="/National/Temperature/HighToday.aspx">High Temperatures Today</a></li>
+										<li><a href="/National/Temperature/HighTomorrow.aspx">High Temperatures Tomorrow</a></li>
+										<li><a href="/National/Temperature/LowTomorrow.aspx">Low Temperatures Tomorrow</a></li>
+										<li><a href="/National/Temperature/TEMPcast.aspx">TEMPcast</a></li>
+										<li><a href="/National/Temperature/WindChill.aspx">Wind Chill</a></li>
+										<li><a href="/National/Temperature/Extreme.aspx">Feels Like Temps</a></li>
+										<li><a href="/National/Temperature/Departure.aspx">Temp Departure</a></li>
+										<li><a href="/National/Temperature/Departure10.aspx">10 Day Temp Departure</a></li>
+										<li><a href="/National/Temperature/Departure30.aspx">30 Day Temp Departure</a></li>
+										<li><a href="/National/Temperature/Departure90.aspx">90 Day Temp Departure</a></li>
+										<li><a href="/National/Temperature/FrostFreeze.aspx">Frost &amp; Freeze</a></li>
+										<li><a href="/National/Temperature/FirstLastFreeze.aspx">First &amp; Last Freeze</a></li>
+										<li><a href="/National/Temperature/Delta.aspx">24hr Deltas</a></li>
+									</ul>
+								</li>
+								<li><a href="/National/Outdoors/Default.aspx">Outdoors<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Outdoors/SOLARcast.aspx">SOLARcast</a></li>
+										<li><a href="/National/Outdoors/Summer.aspx">Summer Fun</a></li>
+										<li><a href="/National/Outdoors/Gardening.aspx">Gardening</a></li>
+										<li><a href="/National/Outdoors/Watering.aspx">Plant Watering</a></li>
+										<li><a href="/National/Outdoors/Painting.aspx">Painting</a></li>
+										<li><a href="/National/Outdoors/Golfing.aspx">Golfing</a></li>
+										<li><a href="/National/Outdoors/Turf.aspx">Golf Turf Conditions</a></li>
+										<li><a href="/National/Outdoors/UltraViolet.aspx">UV Report</a></li>
+										<li><a href="/National/Outdoors/Sky.aspx">Sky Watch</a></li>
+									</ul>
+								</li>
+								<li><a href="/National/Precipitation/Default.aspx">Precipitation<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Precipitation/PrecipCast.aspx">PRECIPcast</a></li>
+										<li><a href="/National/Precipitation/RainCast.aspx">RAINcast</a></li>
+										<li><a href="/National/Precipitation/PopCast.aspx">POPcast</a></li>
+										<li><a href="/National/Precipitation/Estimated.aspx">Estimated Rainfall</a></li>
+										<li><a href="/National/Precipitation/Daily.aspx">Daily Precipitation</a></li>
+										<li><a href="/National/Precipitation/Weekly.aspx">Weekly Precipitation</a></li>
+										<li><a href="/National/Precipitation/Departure10.aspx">10 Day Precip Departure</a></li>
+										<li><a href="/National/Precipitation/Departure30.aspx">30 Day Precip Departure</a></li>
+										<li><a href="/National/Precipitation/Departure90.aspx">90 Day Precip Departure</a></li>
+									</ul>
+								</li>
+								<li><a href="/National/Wind/Default.aspx">Wind<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Wind/Current.aspx">Current Winds</a></li>
+										<li><a href="/National/Wind/WINDcast.aspx">WINDcast</a></li>
+										<li><a href="/National/Wind/JetStream.aspx">Jet Stream</a></li>
+									</ul>
+								</li>
+								<li><a href="/National/Humidity/Default.aspx">Humidity<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Humidity/Current.aspx">Current Humidity</a></li>
+										<li><a href="/National/Humidity/IndoorRelative.aspx">Indoor Relative Humidity</a></li>
+										<li><a href="/National/Humidity/HUMIDITYcast.aspx">HUMIDITYcast</a></li>
+										<li><a href="/National/Humidity/FOGcast.aspx">FOGcast</a></li>
+										<li><a href="/National/Humidity/DewPoint.aspx">Dew Point</a></li>
+									</ul>
+								</li>
+								<li><a href="/National/Analysis/Default.aspx">Analysis Charts<i class="caret"></i></a>
+									<ul>
+										<li><a href="/National/Analysis/SuperFax.aspx">WSI SuperFax</a></li>
+										<li><a href="/National/Analysis/UpperAir300.aspx">300MB Upper Air</a></li>
+										<li><a href="/National/Analysis/UpperAir500.aspx">500MB Upper Air</a></li>
+										<li><a href="/National/Analysis/UpperAir850.aspx">850MB Upper Air</a></li>
+										<li><a href="/National/Analysis/Difax24.aspx">24hr Difax</a></li>
+										<li><a href="/National/Analysis/Difax48.aspx">48hr Difax</a></li>
+										<li><a href="/National/Analysis/Difax72.aspx">72hr Difax</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="/Global/Default.aspx" class="toggle-btn">Global</a>
+							<ul>
+								<li><a href="/Global/Default.aspx">Global Home</a></li>
+								<li><a href="/Global/Humidity.aspx">Relative Humidity</a></li>
+								<li><a href="/Global/Surface.aspx">Surface Analysis</a></li>
+								<li><a href="/Global/Satellite/Default.aspx">Satellite<i class="caret"></i></a>
+									<ul>
+										<li><a href="/Global/Satellite/Current.aspx">Current Satellite</a></li>
+										<li><a href="/Global/Satellite/Infrared.aspx">Infrared Satellite</a></li>
+									</ul>
+								</li>
+								<li><a href="/Global/Temperature/Default.aspx">Temperature<i class="caret"></i></a>
+									<ul>
+										<li><a href="/Global/Temperature/Current.aspx">Current Temperatures</a></li>
+										<li><a href="/Global/Temperature/Minimum.aspx">Minimum Temperatures</a></li>
+										<li><a href="/Global/Temperature/Maximum.aspx">Maximum Temperatures</a></li>
+										<li><a href="/Global/Temperature/Sunshine.aspx">Sunshine</a></li>
+									</ul>
+								</li>
+								<li><a href="/Global/Precipitation/Default.aspx">Precipitation<i class="caret"></i></a>
+									<ul>
+										<li><a href="/Global/Precipitation/Current.aspx">Current Precipitation</a></li>
+										<li><a href="/Global/Precipitation/ForecastAM.aspx">AM Precipitation Forecast</a></li>
+										<li><a href="/Global/Precipitation/ForecastPM.aspx">PM Precipitation Forecast</a></li>
+									</ul>
+								</li>
+								<li><a href="/Global/Wind/Default.aspx">Wind<i class="caret"></i></a>
+									<ul>
+										<li><a href="/Global/Wind/Current.aspx">Current Winds</a></li>
+										<li><a href="/Global/Wind/Forecast.aspx">Forecast Winds</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="/Storm/Default.aspx" class="toggle-btn">Storms</a>
+							<ul>
+								<li><a href="/Storm/Default.aspx">Storm Home</a></li>
+								<li><a href="/Storm/Severe/Default.aspx">Severe Weather<i class="caret"></i></a>
+									<ul>
+										<li><a href="/Storm/Severe/Bulletins.aspx">Weather Alerts</a></li>
+										<li><a href="/Storm/Severe/WatchesWarnings.aspx">Watches &amp; Warnings</a></li>
+										<li><a href="/Storm/Severe/OneKM.aspx">1Km Storm Watch</a></li>
+										<li><a href="/Storm/Severe/Metro.aspx">Metro Storm Watch</a></li>
+										<li><a href="/Storm/Severe/OutlookToday.aspx">Severe Outlook Today</a></li>
+										<li><a href="/Storm/Severe/OutlookTomorrow.aspx">Severe Outlook Tomorrow</a></li>
+										<li><a href="/Storm/Severe/Lightning.aspx">Lightning Strikes</a></li>
+										<li><a href="/Storm/Severe/ThunderCast.aspx">THUNDERcast</a></li>
+										<li><a href="/Storm/Severe/WaterVapor.aspx">Water Vapor</a></li>
+									</ul>
+								</li>
+								<li><a href="/Storm/Hurricane/Default.aspx">Hurricane<i class="caret"></i></a>
+									<ul>
+										<li><a href="/Storm/Hurricane/Track.aspx">Active Track</a></li>
+										<li><a href="/Storm/Hurricane/TropicalWinds24.aspx">24hr Tropical Winds</a></li>
+										<li><a href="/Storm/Hurricane/TropicalWinds48.aspx">48hr Tropical Winds</a></li>
+										<li><a href="/Storm/Hurricane/TropicalWinds72.aspx">72hr Tropical Winds</a></li>
+										<li><a href="/Storm/Hurricane/AtlanticAnalysis.aspx">Atlantic Analysis</a></li>
+										<li><a href="/Storm/Hurricane/AtlanticSatellite.aspx">Atlantic Satellite</a></li>
+										<li><a href="/Storm/Hurricane/AtlanticForecast.aspx">Atlantic Forecast</a></li>
+										<li><a href="/Storm/Hurricane/CaribbeanSatellite.aspx">Caribbean Satellite</a></li>
+										<li><a href="/Storm/Hurricane/PacificAnalysis.aspx">Pacific Analysis</a></li>
+										<li><a href="/Storm/Hurricane/PacificSatellite.aspx">Pacific Satellite</a></li>
+									</ul>
+								</li>
+								<li><a href="/Storm/Summary/Default.aspx">Season Summaries<i class="caret"></i></a>
+									<ul>
+                    <li><a href="/Storm/Summary/Hurricane2014.aspx">2014 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2013.aspx">2013 Hurricane Summary</a></li>
+                    <li><a href="/Storm/Summary/Hurricane2012.aspx">2012 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2011.aspx">2011 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2010.aspx">2010 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2009.aspx">2009 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2008.aspx">2008 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2007.aspx">2007 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2006.aspx">2006 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2005.aspx">2005 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2004.aspx">2004 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2003.aspx">2003 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2002.aspx">2002 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2001.aspx">2001 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane2000.aspx">2000 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane1999.aspx">1999 Hurricane Summary</a></li>
+										<li><a href="/Storm/Summary/Hurricane1998.aspx">1998 Hurricane Summary</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="/Health/Default.aspx" class="toggle-btn">Health</a>
+							<ul>
+								<li><a href="/Health/Default.aspx">Health Home</a></li>
+								<li><a href="/Health/AchesPains.aspx">Aches &amp; Pains</a></li>
+								<li><a href="/Health/Air.aspx">Air Stagnation</a></li>
+								<li><a href="/Health/Attentiveness.aspx">Attentiveness</a></li>
+								<li><a href="/Health/BadHairDay.aspx">Bad Hair Day</a></li>
+								<li><a href="/Health/Influenza.aspx">Influenza Report</a></li>
+								<li><a href="/Health/Labor.aspx">Labor Index</a></li>
+								<li><a href="/Health/Mood.aspx">Mood Index</a></li>
+								<li><a href="/Health/Reflex.aspx">Reflex Times</a></li>
+								<li><a href="/Health/Respiratory.aspx">Respiratory Distress</a></li>
+							</ul>
+						</li>
+						<li><a href="/Travel/Default.aspx" class="toggle-btn">Travel</a>
+							<ul>
+								<li><a href="/Travel/Default.aspx">Travel Home</a></li>
+								<li><a href="/Travel/Risk.aspx">Delay Risk</a></li>
+								<li><a href="/Travel/Outlook.aspx">Outlook</a></li>
+								<li><a href="/Travel/Flying/Default.aspx">Airport Delays</a></li>
+								<li><a href="/Travel/Library/Browse.aspx">Climate Guides</a></li>
+								<li><a href="/Travel/Driving/Road.aspx">Driving<i class="caret"></i></a>
+									<ul>
+										<li><a href="/Travel/Driving/Highways.aspx">Highway Conditions</a></li>
+										<li><a href="/Travel/Driving/Road.aspx">Roadway Conditions</a></li>
+										<li><a href="/Travel/Driving/TopUpTopDown.aspx">Top Up Top Down</a></li>
+									</ul>
+								</li>
+								<li><a href="/Travel/Weather/Snow/Default.aspx">Ski &amp; Snow<i class="caret"></i></a>
+									<ul>
+										<li><a href="javascript:internalPageLink('/Local/WxMap.aspx?latitude=33.72&longitude=73.06&zoomLevel=8&opacity=1&basemap=0014&layers=0053');">Interactive Snow Cover</a></li>
+										<li><a href="/Travel/Weather/Snow/Ski.aspx">Ski Conditions</a></li>
+										<li><a href="/Travel/Weather/Snow/Cover.aspx">Snow Cover</a></li>
+										<li><a href="/Travel/Weather/Snow/SNOWcast.aspx">SNOWcast</a></li>
+										<li><a href="/Travel/Weather/Snow/Forecast.aspx">48hr Snow Forecast</a></li>
+										<li><a href="/Travel/Weather/Snow/Storm.aspx">24hr Snow Forecast</a></li>
+									</ul>
+								</li>
+								<li><a href="/Travel/Weather/Marine/Default.aspx">Boat &amp; Beach<i class="caret"></i></a>
+									<ul>
+										
+										<li><a href="/Travel/Weather/Marine/Sailing.aspx">Great Sailing</a></li>
+										<li><a href="/Travel/Weather/Marine/Water.aspx">Water Temperatures</a></li>
+										<li><a href="/Travel/Weather/Marine/Waves.aspx">Wave Heights</a></li>
+										<li><a href="/Travel/Weather/Marine/Forecast.aspx">Marine Forecast</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="/National/ForecastToday.aspx" class="toggle-btn">Forecast</a>
+							<ul>
+								<li><a href="/Local/Weather.aspx">10-Day Weather Report</a></li>
+								<li><a href="/Local/Hourly.aspx">Hourly</a></li>
+								<li><a href="/National/Radar/Forecast.aspx">Radar</a></li>
+								<li><a href="/National/Surface/Forecast12.aspx">Surface</a></li>
+								<li><a href="/National/Temperature/TEMPcast.aspx">Temperature</a></li>
+								<li><a href="/National/Precipitation/PrecipCast.aspx">Precipitation</a></li>
+								<li><a href="/National/Precipitation/RainCast.aspx">Rain</a></li>
+								<li><a href="/Storm/Severe/ThunderCast.aspx">Thunder</a></li>
+								<li><a href="/National/Wind/WINDcast.aspx">Winds</a></li>
+								<li><a href="/National/Humidity/HUMIDITYcast.aspx">Humidity</a></li>
+							</ul>
+						</li>
+						<li><a href="/National/Weather.aspx" class="toggle-btn">Current</a>
+							<ul>
+								<li><a href="/National/Radar/Current.aspx">Radar</a></li>
+								<li><a href="/National/Surface/Current.aspx">Surface</a></li>
+								<li><a href="/National/Temperature/Current.aspx">Temperatures</a></li>
+								<li><a href="/National/Temperature/Delta.aspx">Temperature Changes</a></li>
+								<li><a href="/National/Precipitation/Estimated.aspx">Precipitation</a></li>
+								<li><a href="/National/Wind/Current.aspx">Winds</a></li>
+								<li><a href="/National/Humidity/Current.aspx">Humidity</a></li>
+							</ul>
+						</li>
+						<li><a href="/National/Radar/Default.aspx" class="toggle-btn">Radar</a>
+							<ul>
+								<li><a href="/Local/WxMap.aspx">Interactive Radar</a></li>
+								<li><a href="/National/Radar/Current.aspx">Current Radar</a></li>
+								<li><a href="/National/Radar/Current.aspx?animate=true">Current Loops</a></li>
+								<li><a href="/National/Radar/Forecast.aspx">Forecast</a></li>
+								<li><a href="/National/Radar/OneKM.aspx">Regional (1Km)</a></li>
+								<li><a href="/National/Radar/OneKM.aspx?animate=true">Regional (1Km) Loop</a></li>
+								<li><a href="/National/Radar/Metro.aspx">Metro</a></li>
+								<li><a href="/National/Radar/Metro.aspx?animate=true">Metro Loop</a></li>
+								<li><a href="/National/Radar/Summary.aspx">Summary</a></li>
+								<li><a href="/Local/WxMap.aspx">Java Radar Loop</a></li>
+							</ul>
+						</li>
+						<li><a href="/National/Satellite/Default.aspx" class="toggle-btn">Satellite</a>
+							<ul>
+								<li><a href="/Global/Satellite/Infrared.aspx">Global Infrared</a></li>
+								<li><a href="/National/Satellite/Infrared.aspx">US National Infrared</a></li>
+								<li><a href="/National/Satellite/Regional.aspx">US Regional Infrared</a></li>
+								<li><a href="/Storm/Hurricane/AtlanticSatellite.aspx">Atlantic Infrared Satellite</a></li>
+								<li><a href="/Storm/Hurricane/PacificSatellite.aspx">Pacific Infrared Satellite</a></li>
+								<li><a href="/Storm/Hurricane/CaribbeanSatellite.aspx">Caribbean Infrared Satellite</a></li>
+								<li><a href="/National/Satellite/Visible.aspx">Visible Satellite</a></li>
+								<li><a href="/Global/Satellite/Current.aspx">Current Satellite</a></li>
+								<li><a href="/National/Satellite/WaterVapor.aspx">Water Vapor</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="social">
+					<div class="fb">
+						<iframe class="fb-btn" src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FIntellicast.weather&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&=tahomaamp;height=21" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="location-bar clearfix">
+			<div class="container">
+				<div class="row">
+					<div class="user-location">
+						<a class="current-location toggle-btn" href="/Local/Weather.aspx?location=PKXX0006">
+							<span id="recentTemp"></span>Islamabad, Pakistan
+						</a>
+						
+					</div>
+					<div class="uni-time">
+						<strong>Universal Time:</strong>&nbsp;Monday, 23 May 2016, 09:44 
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="referral" class="referral-form">
+			<div id="referralForm" style="display:block;">
+				<strong><span style="margin-right:5px;">Send this page to a friend</span>
+        <img src="http://images.intellicast.com/App_Images/btn_close.gif" alt="Close" class="Close" onclick="javascript:$('#referral').toggle();" style="float:right;" /></strong>
+				<div>
+					Your Name:<br />
+					<input type="text" id="FromName" maxlength="50" />
+				</div>
+				<div>
+					Your E-mail Address: <br />
+					<input type="text" id="FromEmail" maxlength="256" />
+				</div>
+				<div>
+					Friend's E-mail Address: <br />
+					<input type="text" id="ToEmail" maxlength="256" />
+				</div>
+				<div>
+					<button type="button" id="ReferralSubmit" onclick="javascript: SendReferral()">Send</button>
+				</div>
+			</div>
+			<div id="referralMessage" style="display:none;">
+				<strong style="text-align:center;">Thank you!<img src="http://images.intellicast.com/App_Images/btn_close.gif" alt="Close" class="Close" onclick="javascript:$('#referral').toggle();" /></strong>
+				<br /><br />
+					Your referral has been sent.<br /><br />
+					<a href="#" onclick="javascript:$('#referralForm').show();$('#referralMessage').hide();">Click here to send another one.</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="main container clearfix" id="content">
+		<form name="aspnetForm" method="post" action="Weather.aspx?location=PKXX0006" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNjgzOTMwNTYxZBgCBSdjdGwwMCRjdGwwMCRtYXN0ZXIkYm9keSRjdGwwMCRTdG9ybVZpZXcPD2RmZAUpY3RsMDAkY3RsMDAkbWFzdGVyJGJvZHkkY3RsMDAkU2luZ2xlU3Rvcm0PZ2Qv6yRtlR2U4AN/4qHd4sS0QSJlRw==" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BFCC0B74" />
+			
+<div style="clear:both;width:970px;">
+
+<div id="winshade">
+<div id="WX_WindowShade"></div>
+</div>
+
+<div id="leftColumn">
+  
+<div class="pageHeader">
+  <div class="title">Weather Report</div>
+  <div class="breadcrumb"><a href="/">Home</a> &raquo; <a href="/Local">Local</a> &raquo; Weather Report</div>
+</div>
+<div class="cityHeader" style="margin-bottom:4px;">Islamabad, Pakistan</div>
+<div class="cityNav"><a href="/Local/Weather.aspx?location=PKXX0006">Weather Report</a> &middot; <a href="/Local/WxMap.aspx?location=PKXX0006">Interactive Map</a> &middot; <a href="/Local/Forecast.aspx?location=PKXX0006">Extended Forecast</a> &middot; <a href="/Local/Hourly.aspx?location=PKXX0006">Hourly Forecast</a> &middot; <a href="/Local/Observation.aspx?location=PKXX0006">Past Observations</a> &middot; <a href="/Local/History.aspx?location=PKXX0006">Historic Averages</a></div>
+<div class="Chrome" style="clear:both;">
+  <div class="Title">Current Conditions&nbsp;-&nbsp;
+    
+    &deg;<strong>F</strong> <span style="font-weight:normal;color:white;">| <a href="/Local/Weather.aspx?unit=C&location=PKXX0006" style="color:white;">&deg;C</a></span>
+    
+  </div>
+  <div style="float:right;color:#FFF;" id="conditions_report">
+  <!--[if lte IE 9]>
+  As of 2:30 PM on Monday 23 May 2016 (Local Time) from OPRN Reporting Station
+  <![endif]-->
+  </div>
+</div>
+<div class="Container" style="background: #FFF;">
+  <table style="width:100%;">
+    <tr style="vertical-align:top;">
+      <td id="conditions">
+				
+					<div class="SubMenu" style="border-bottom: solid 1px #383e49;">	
+						Local Reporting Station
+					</div>
+				
+        <div id="conditions_view"></div>
+        <!--[if lte IE 9]>
+				<div style="padding:5px 10px;">
+				<table>
+          <tr>
+            <td colspan="2" style="padding-bottom:10px;white-space:nowrap;">
+              <img src="http://images.intellicast.com/App_Images/40_white/wx_66.png" title="Scattered Clouds" alt="Scattered Clouds" class="Icon" /> Scattered Clouds
+            </td>
+            <td class="Empty">&nbsp;</td>
+            <td colspan="2" style="padding-bottom:10px;">
+              <div style="font-size:24px;font-weight:bold;margin-bottom: 5px;margin-top:5px;"><a href="/National/Temperature/Current.aspx" class="Charcoal" title="Temperature">99&deg;F</a>
+              </div>
+              <div><a href="/National/Temperature/Extreme.aspx" title="Feels Like" class="Charcoal">Feels Like: 101&deg;</a></div>
+            </td>
+          </tr>
+          <tr>
+            <td><a href="/National/Temperature/Windchill.aspx">Wind Chill: </a></td>
+            <td>99&deg;</td>
+            <td class="Empty">&nbsp;</td>
+            <td><a href="/National/Satellite/Regional.aspx">Ceiling: </a></td>
+            <td>Unl</td>
+          </tr>
+          <tr>
+            <td><a href="/National/Temperature/Extreme.aspx">Heat Index: </a></td>
+            <td>101&deg;</td>
+            <td class="Empty">&nbsp;</td>
+            <td><a href="/National/Satellite/Visible.aspx">Visibility: </a></td>
+            <td>6mi</td>
+          </tr>
+          <tr>
+            <td><a href="/National/Humidity/DewPoint.aspx">Dew Point: </a></td>
+            <td>64&deg;</td>
+            <td class="Empty">&nbsp;</td>
+            <td><a href="/National/Wind/Current.aspx">Wind: </a></td>
+            <td>16mph</td>
+          </tr>
+          <tr>
+            <td><a href="/National/Humidity/Current.aspx">Humidity: </a></td>
+            <td>32%</td>
+            <td class="Empty">&nbsp;</td>
+            <td><a href="/National/Wind/Current.aspx">Direction: </a></td>
+            <td style="white-space:nowrap;">130&deg;SE </td>
+          </tr>
+          <tr>
+            <td><a href="/National/Surface/Current.aspx">Pressure: </a></td>
+            <td>NA</td>
+            <td class="Empty">&nbsp;</td>
+            <td><a href="/National/Wind/Current.aspx">Gusts: </a></td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td colspan="5" style="padding-top:10px;font-size:9px;width:270px;">
+							<strong style="cursor:help;" title="Location">Location:</strong>&nbsp;
+							33.72&deg;N, 
+							73.06&deg;E <br />
+							<strong style="cursor:help;" title="The raw data report as delivered from the weather station.">Report Text:</strong>&nbsp;OPRN 230930Z 13014KT 9999 FEW040 SCT100 37/18 Q1001.7/29.58 
+
+            </td>
+          </tr>
+        </table>
+				</div>
+        <![endif]-->
+      </td>
+      <script type="text/template" id="current-conditions-template">
+        {{ var degree = observation.imperial ? "F" : "C"; }}
+        {{ var conditions = observation.imperial || observation.metric; }}
+        <div style="padding:5px 10px;">
+          <table>
+            <tr>
+              <td colspan="2" style="padding-bottom:10px;white-space:nowrap;">
+                <img class="Icon" src="http://images.intellicast.com/App_Images/40_white/wx_{{= observation.icon_code }}.png" 
+                  alt="{{= observation.phrase_12char }}" 
+                  title="{{= observation.phrase_12char }}" />
+                {{= observation.phrase_32char }}
+              </td>
+              <td class="Empty">&nbsp;</td>
+              <td colspan="2" style="padding-bottom:10px;" class="Charcoal">
+                <div style="font-size:24px;font-weight:bold;margin-bottom: 5px;margin-top:5px;">
+                  <a href="/National/Temperature/Current.aspx" title="Temperature">{{= conditions.temp }}&deg;{{= degree }}</a>
+                </div>
+                <div><a href="/National/Temperature/Extreme.aspx" title="Feels Like" class="Charcoal">Feels Like: {{= conditions.feels_like }}&deg;</a></div>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="/National/Temperature/Windchill.aspx">Wind Chill: </a></td>
+              <td>{{= conditions.wc }}&deg;</td>
+              <td class="Empty">&nbsp;</td>
+              <td><a href="/National/Satellite/Regional.aspx">Ceiling: </a></td>
+              <td>{{= conditions.ceiling || 'NA' }}</td>
+            </tr>
+            <tr>
+              <td><a href="/National/Temperature/Extreme.aspx">Heat Index: </a></td>
+              <td>{{= conditions.hi }}&deg;</td>
+              <td class="Empty">&nbsp;</td>
+              <td><a href="/National/Satellite/Visible.aspx">Visibility: </a></td>
+              <td>{{= conditions.vis }}{{= observation.imperial ? 'mi' : 'k' }}</td>
+            </tr>
+            <tr>
+              <td><a href="/National/Humidity/DewPoint.aspx">Dew Point: </a></td>
+              <td>{{= conditions.dewpt }}&deg;</td>
+              <td class="Empty">&nbsp;</td>
+              <td><a href="/National/Wind/Current.aspx">Wind: </a></td>
+              <td>{{= conditions.wspd }}{{= observation.imperial ? 'mph' : 'kph' }}</td>
+            </tr>
+            <tr>
+              <td><a href="/National/Humidity/Current.aspx">Humidity: </a></td>
+              <td>{{= conditions.rh }}&#37;</td>
+              <td class="Empty">&nbsp;</td>
+              <td><a href="/National/Wind/Current.aspx">Direction: </a></td>
+              <td style="white-space:nowrap;">{{= observation.wdir + '&deg' + observation.wdir_cardinal }}</td>
+            </tr>
+            <tr>
+              <td><a href="/National/Surface/Current.aspx">Pressure: </a></td>
+              <td>{{= conditions.altimeter }}{{= observation.imperial? '"' : 'mbar' }}</td>
+              <td class="Empty">&nbsp;</td>
+              <td><a href="/National/Wind/Current.aspx">Gusts: </a></td>
+              <td>{{= conditions.gust || 'NA' }}{{= conditions.gust ? observation.imperial ? 'mph' : 'kph' : '' }}</td>
+            </tr>
+            <tr>
+              <td colspan="5" style="padding-top:10px;font-size:9px;width:270px;">
+							  <strong style="cursor:help;display:block;" title="The raw data report as delivered from the weather station.">
+                  Raw METAR from closest station (OPRN):</strong>
+                  OPRN 230930Z 13014KT 9999 FEW040 SCT100 37/18 Q1001.7/29.58 
+              </td>
+            </tr>
+          </table>
+        </div>
+      </script>
+      <td id="pws">
+        <script id="pws-template" type="text/template">
+          {{ _.each(items, function(item, i){ }}
+            <tr id="pwsRecord{{= i }}" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood{{= i }}" class="pwsNeighborhood"></a>
+								<span id="pwsLocation{{= i }}"></span><br />
+								<span id="pwsCoords{{= i }}"></span><span id="pwsElev{{= i }}"></span>
+							</td>
+							<td id="pwsTemp{{= i }}" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind{{= i }}"></span><br />
+								<span id="pwsUpdate{{= i }}"></span><br />
+								<a id="pwsRef{{= i }}"></a>
+							</td>
+						</tr>
+          {{ }); }}
+        </script>
+        <div class="SubMenu" style="border-bottom: solid 1px #383e49; ">
+					<div style="float:left;">Nearby Weather Stations</div>
+					<div style="float:right;"><a href="/About/PWS.aspx" onclick="_gaq.push(['_trackEvent', 'WU', 'PWS', 'LearnMore']);">Learn More</a></div>
+        </div>
+				<div id="pswElement">
+					<div id="pwsLoader">
+						Loading <br />
+						Personal Weather Stations
+						<div id="progressBarWrapper">
+							<div id="progressBarFiller"></div>
+						</div>
+					</div>
+					<table id="pwsTable">
+						<tr id="pwsRecord0" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood0" class="pwsNeighborhood"></a>
+								<span id="pwsLocation0"></span><br />
+								<span id="pwsCoords0"></span><span id="pwsElev0"></span>
+							</td>
+							<td id="pwsTemp0" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind0"></span><br />
+								<span id="pwsUpdate0"></span><br />
+								<a id="pwsRef0"></a>
+							</td>
+						</tr>
+						
+						<tr id="pwsSeparator1" class="pwsSeparatorRow">
+							<td colspan="3" class="pwsSeparatorCell">
+								<div class="pwsSeparatorBar"></div>
+							</td>
+						</tr>
+						<tr id="pwsRecord1" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood1" class="pwsNeighborhood"></a>
+								<span id="pwsLocation1"></span><br />
+								<span id="pwsCoords1"></span><span id="pwsElev1"></span>
+							</td>
+							<td id="pwsTemp1" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind1"></span><br />
+								<span id="pwsUpdate1"></span><br />
+								<a id="pwsRef1"></a>
+							</td>
+						</tr>
+						
+						<tr id="pwsSeparator2" class="pwsSeparatorRow">
+							<td colspan="3" class="pwsSeparatorCell">
+								<div class="pwsSeparatorBar"></div>
+							</td>
+						</tr>
+						<tr id="pwsRecord2" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood2" class="pwsNeighborhood"></a>
+								<span id="pwsLocation2"></span><br />
+								<span id="pwsCoords2"></span><span id="pwsElev2"></span>
+							</td>
+							<td id="pwsTemp2" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind2"></span><br />
+								<span id="pwsUpdate2"></span><br />
+								<a id="pwsRef2"></a>
+							</td>
+						</tr>
+					
+						<tr id="pwsSeparator3" class="pwsSeparatorRow">
+							<td colspan="3" class="pwsSeparatorCell">
+								<div class="pwsSeparatorBar"></div>
+							</td>
+						</tr>
+						<tr id="pwsRecord3" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood3" class="pwsNeighborhood"></a>
+								<span id="pwsLocation3"></span><br />
+								<span id="pwsCoords3"></span><span id="pwsElev3"></span>
+							</td>
+							<td id="pwsTemp3" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind3"></span><br />
+								<span id="pwsUpdate3"></span><br />
+								<a id="pwsRef3"></a>
+							</td>
+						</tr>
+
+						<tr id="pwsSeparator4" class="pwsSeparatorRow">
+							<td colspan="3" class="pwsSeparatorCell">
+								<div class="pwsSeparatorBar"></div>
+							</td>
+						</tr>
+						<tr id="pwsRecord4" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood4" class="pwsNeighborhood"></a>
+								<span id="pwsLocation4"></span><br />
+								<span id="pwsCoords4"></span><span id="pwsElev4"></span>
+							</td>
+							<td id="pwsTemp4" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind4"></span><br />
+								<span id="pwsUpdate4"></span><br />
+								<a id="pwsRef4"></a>
+							</td>
+						</tr>
+
+						<tr id="pwsSeparator5" class="pwsSeparatorRow">
+							<td colspan="3" class="pwsSeparatorCell">
+								<div class="pwsSeparatorBar"></div>
+							</td>
+						</tr>
+						<tr id="pwsRecord5" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood5" class="pwsNeighborhood"></a>
+								<span id="pwsLocation5"></span><br />
+								<span id="pwsCoords5"></span><span id="pwsElev5"></span>
+							</td>
+							<td id="pwsTemp5" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind5"></span><br />
+								<span id="pwsUpdate5"></span><br />
+								<a id="pwsRef5"></a>
+							</td>
+						</tr>
+
+						<tr id="pwsSeparator6" class="pwsSeparatorRow">
+							<td colspan="3" class="pwsSeparatorCell">
+								<div class="pwsSeparatorBar"></div>
+							</td>
+						</tr>
+						<tr id="pwsRecord6" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood6" class="pwsNeighborhood"></a>
+								<span id="pwsLocation6"></span><br />
+								<span id="pwsCoords6"></span><span id="pwsElev6"></span>
+							</td>
+							<td id="pwsTemp6" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind6"></span><br />
+								<span id="pwsUpdate6"></span><br />
+								<a id="pwsRef6"></a>
+							</td>
+						</tr>
+
+						<tr id="pwsSeparator7" class="pwsSeparatorRow">
+							<td colspan="3" class="pwsSeparatorCell">
+								<div class="pwsSeparatorBar"></div>
+							</td>
+						</tr>
+						<tr id="pwsRecord7" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood7" class="pwsNeighborhood"></a>
+								<span id="pwsLocation7"></span><br />
+								<span id="pwsCoords7"></span><span id="pwsElev7"></span>
+							</td>
+							<td id="pwsTemp7" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind7"></span><br />
+								<span id="pwsUpdate7"></span><br />
+								<a id="pwsRef7"></a>
+							</td>
+						</tr>
+
+						<tr id="pwsSeparator8" class="pwsSeparatorRow">
+							<td colspan="3" class="pwsSeparatorCell">
+								<div class="pwsSeparatorBar"></div>
+							</td>
+						</tr>
+						<tr id="pwsRecord8" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood8" class="pwsNeighborhood"></a>
+								<span id="pwsLocation8"></span><br />
+								<span id="pwsCoords8"></span><span id="pwsElev8"></span>
+							</td>
+							<td id="pwsTemp8" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind8"></span><br />
+								<span id="pwsUpdate8"></span><br />
+								<a id="pwsRef8"></a>
+							</td>
+						</tr>
+
+						<tr id="pwsSeparator9" class="pwsSeparatorRow">
+							<td colspan="3" class="pwsSeparatorCell">
+								<div class="pwsSeparatorBar"></div>
+							</td>
+						</tr>
+						<tr id="pwsRecord9" class="pwsRecord">
+							<td class="pwsLocale">
+								<a id="pwsNeighborhood9" class="pwsNeighborhood"></a>
+								<span id="pwsLocation9"></span><br />
+								<span id="pwsCoords9"></span><span id="pwsElev9"></span>
+							</td>
+							<td id="pwsTemp9" class="pwsTemps" ></td>
+							<td>
+								<span id="pwsWind9"></span><br />
+								<span id="pwsUpdate9"></span><br />
+								<a id="pwsRef9"></a>
+							</td>
+						</tr>
+
+					</table>
+					<script type="text/javascript">
+					  startPws(73.06, 33.72, "F");
+					</script>
+				</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="ContainerLink" style="font-family:'Segoe UI', Tahoma, sans-serif; font-size:12px; padding:5px 10px;text-align:left;border-right:solid 1px #383e49;border-top:none;background-color:#e3e6ea;">View detailed Observations<br />
+        <a href="/Local/Observation.aspx?location=PKXX0006">48 Hours</a> &middot; <a href="/Local/ObservationsSummary.aspx?location=PKXX0006">14 Days</a>
+      </td>
+			<td class="ContainerLink" style="font-family:'Segoe UI', Tahoma, sans-serif; font-size:12px; padding:0px 10px;text-align:left;border-top:none;background-color:#e3e6ea;">
+        <div style="float:left;height:38px;line-height:38px;">
+					<a href="/About/PWS.aspx" onclick="_gaq.push(['_trackEvent', 'WU', 'PWS', 'Attribution']);">Personal Weather Stations</a> provided by:
+        </div>
+				<div style="float:right;margin-top:2px;">
+					<a href="http://www.wunderground.com" target="_blank"><img src="http://images.intellicast.com/App_Images/logo_wu.png" alt="Weather Underground" title="Weather Underground" /></a>
+				</div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<a href="/Local/WxMap.aspx" id="wxMapLink" style="display:block;margin-bottom:10px;">
+  <img style="display:block;width:100%;" src="http://images.intellicast.com/App_Images/Ads/800x60_imap.jpg" alt="Interactive Weather Map" />
+</a>
+
+<a href="http://apple.co/1Up3WFT" id="stormLink" style="display:block;margin-bottom:10px;" target="_blank">
+  <img style="display:block;width:100%;" src="http://images.intellicast.com/App_Images/Storm_boating_660x60.jpg" />
+</a>
+
+<!-- Tropical Storm Tracking -->
+
+
+<span id="forecastSurveyLink" style="float:right;position:relative;bottom:-24px;z-index:1;"><a href="/About/Forecast.aspx">New forecast layout! Learn more</a></span>
+
+<div id="forecast">
+  <div class="forecast-tabs wui-tabs ui-tabs">
+    <h2>10-Day Weather Forecast</h2>
+    <ul class="ui-tabs-nav">
+      <li><a href="#forecast-graph">Graph</a></li>
+      <li><a href="#forecast-table">Table</a></li>
+      <li><a href="#forecast-extended">Descriptive</a></li>
+    </ul>
+    <div class="content" id="forecast-graph">
+      <div class="weather-graph">
+        <div id="weather-graph-options" class="weather-graph-options ">
+          <div class="options-container">
+            <a href="javascript:void(0);" class="plot-zoom-daily">Daily</a>
+            <span class="split">|</span>
+            <a href="javascript:void(0);" class="plot-zoom-hourly">Hourly</a>
+            <a href="javascript:void(0);" data-dropdown="plotVariablesMenu" id="editMode"><i class="fi-widget"></i> Customize</a>
+            <div id="plotVariablesMenu" data-dropdown-content class="f-dropdown content"></div>
+          </div>
+        </div>
+        <div class="plots"></div>
+        <a href="javascript:void(0);" class="plot-pan-left"></a>
+        <a href="javascript:void(0);" class="plot-pan-right"></a>
+      </div>
+      <script type="text/template" id="plotgroup-header-daily-template">
+        <div class="cond-highlow">
+          <span class="cond-high">{{= condition.high }}&deg;</span>
+          <span class="split">|</span>
+          <span class="cond-low">{{= condition.low }}&deg;</span>
+        </div>
+        <div class="cond-icon-auto">
+          <img src="//icons.wxug.com/i/c/v1/{{= condition.icon }}.svg" alt="{{= condition.icon }}" />
+        </div>
+        <div class="cond-text">{{= condition.condition }}</div>
+        <div class="cond-qpf">
+          <span class="icon-qpf {{ if (condition.precip_type === 'snow') { }} snow{{ } if (condition.liquid_precip>0) { }} wet{{ } }}"></span>
+          {{ if (condition.precip_type === 'snow') { }}
+            {{ var snowRange = condition.snow_range || (opts.units === 'metric' ? '< 2' : '< 1'); }}
+            {{= snowRange }} {{= labels.snow_depth.units }}
+          {{ } else { }}
+            {{ var liquidPrecip = condition.liquid_precip || 0; }}
+            {{= liquidPrecip }} {{= labels.rainfall.units }}
+          {{ } }}
+        </div>
+      </script>
+
+      <script type="text/template" id="plotgroup-header-hourly-template">
+        <div class="cond-icon-auto">
+          <img src="//icons.wxug.com/i/c/v1/{{= condition.icon }}.svg" alt="{{= condition.icon }}" />
+        </div>
+        <div class="cond-text">{{= condition.condition }}</div>
+      </script>
+
+      <script type="text/template" id="plotgroup-legend-template">
+        <ul class="inline-list right">
+        {{ _.each(variables, function(variable) { }}
+          {{ if (variable.show !== false && variable.legend !== false && variable.enabled !== false) { }}
+            <li>
+              <span class="legend-swatch" style="background-color: {{= variable.legendFillColor || variable.color || variable.options.color }}; border-color: {{= variable.legendBorderColor || variable.color || variable.options.color }};"></span>
+              {{
+                var units = '';
+                var legendUnits = variable.legendUnits;
+                if (legendUnits === false) {
+                  // no units shown in the legend label
+                } else if (_.isString(legendUnits)) {
+                  units = $.trim(legendUnits);
+                } else {
+                  units = $.trim(variable.units);
+                }
+              }}
+              <span class="legend-label">
+                {{= variable.options.label }}
+                {{ if (units) { }} ({{= units }}){{ } }}
+              </span>
+            </li>
+          {{ } }}
+        {{ }); }}
+        </ul>
+      </script>
+
+      <script type="text/template" id="plotgroup-variables-menu-template">
+        <ul class="no-bullet">
+        {{ var isNWS = (forecastSource == 'nws'); }}
+        {{ _.each(plots, function(plot) { }}
+          {{ _.each(plot.variables, function(variable) { }}
+            {{ if (variable.checkbox !== false) { }}
+              {{ var disabled = (isNWS && variable.missingFromNWS); }}
+              <li>
+                <input type="checkbox" id="cp_var_{{= variable.id }}" data-variable-id="{{= variable.id }}" {{ if (variable.show !== false && !disabled) { }}checked="checked"{{ } }} {{ if (disabled) { }}disabled="disabled"{{ } }} />
+                <label for="cp_var_{{= variable.id }}" {{ if (disabled) { }}class="disabled"{{ } }}>
+                  {{= variable.options.label }}
+                  {{ if (disabled) { }}*{{ } }}
+                </label>
+              </li>
+            {{ } }}
+          {{ }); }}
+        {{ }); }}
+        </ul>
+        {{ if (isNWS) { }}<p>* Not available with NWS</p>{{ } }}
+      </script>
+
+      <script type="text/template" id="plotgroup-needle-now-template">
+        <div class="needle-label">Forecast &rarr;</div>
+      </script>
+    </div>
+    <div class="content" id="forecast-table">
+      <script type="text/template" id="table-vertical-template">
+          {{ for (var index = 0; index < weather.forecast.days.length; index++) { }}
+          {{ var day = weather.forecast.days[index]; }}
+          {{ var astronomyDay = weather.astronomy && weather.astronomy.days.length ? weather.astronomy.days[index] : null; }}
+          {{ var latitude = weather.response && weather.response.location && typeof weather.response.location.latitude !== 'undefined' ? weather.response.location.latitude : null; }}
+          {{ var moonDirection = 'moonNorth'; }}
+          {{ var errorString = 'Not Available'; }}
+
+          <dd id="fctDay-{{= day.summary.date.year }}{{= wui.date.pad(day.summary.date.month) }}{{= wui.date.pad(day.summary.date.day) }}" class="{{ if (index === 0) { }}active{{ } }}">
+            <a href="#vertical-day-{{= day.summary.date.yday }}">
+              <span class="date"><span class="b">{{= day.summary.date.weekday_short }}</span> {{= day.summary.date.month }}/{{= day.summary.date.day }}</span>
+              <span class="temps"><span class="b">{{= day.summary.high }}</span>{{= labels.temperature.units }} | {{= day.summary.low }}{{= labels.temperature.units }}</span>
+              <span class="conds"><img src="{{= day.summary.icon_url }}" alt="{{= day.summary.condition }}" /><span class="conds-label">{{= day.summary.condition }}</span></span>
+              <span class="pop{{ if (day.summary.day.precip_type === 'snow') {}} snow{{ } if(day.summary.pop >= 30) {}} wet{{}}}"><span title="{{= labels.pop.label }}"></span>{{= day.summary.pop }}{{= labels.pop.units }}</span>
+            </a>
+            <div id="vertical-day-{{= day.summary.date.yday }}" class="content{{ if (index === 0) { }} active{{ } }}">
+              <div class="fctText row astronomy-data">
+                <div class="fct-item sun columns">
+                  <div class="fct-content">
+                    <h5>Sun</h5>
+                    <span class="rise">
+                      <span class="astro-data sunrise-icon">
+                        {{ if (astronomyDay.sunrise.date.hour !== null) { }}
+                          {{= wui.date.strftime("%l:%M", astronomyDay.sunrise.date) }}
+                        {{ } else { }}
+                          {{= errorString }}
+                        {{ } }}
+                      </span>
+                      <span class="ampm">
+                        {{ if (astronomyDay.sunrise.date.hour !== null) { }}
+                          {{= wui.date.strftime("%p", astronomyDay.sunrise.date) }}
+                        {{ } }}
+                      </span>
+                    </span>
+                    <span class="set">
+                      <span class="astro-data sunset-icon">
+                        {{ if (astronomyDay.sunset.date.hour !== null) { }}
+                          {{= wui.date.strftime("%l:%M", astronomyDay.sunset.date) }}
+                        {{ } else { }}
+                          {{= errorString }}
+                        {{ } }}
+                      </span>
+                      <span class="ampm">
+                        {{ if (astronomyDay.sunset.date.hour !== null) { }}
+                          {{= wui.date.strftime("%p", astronomyDay.sunset.date) }}
+                        {{ } }}
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <div class="fct-item moon columns">
+                  <div class="fct-content">
+                    <h5>Moon</h5>
+                    {{ if (latitude !== null) { }}
+                      {{ if (latitude < 0) { }}
+                        {{ moonDirection = 'moonSouth'; }}
+                      {{ } }}
+                      <span class="{{= moonDirection }} moon-phase">
+                        <span class="astro-data p-{{= astronomyDay.moon_icon }}"></span>
+                      </span>
+                    {{ } }}
+                    <span class="rise">
+                      <span class="astro-data moonrise-icon">
+                        {{ if(astronomyDay.moonrise.date.hour !== null) { }}
+                          {{= wui.date.strftime("%l:%M", astronomyDay.moonrise.date) }}
+                        {{ } else { }}
+                          {{= errorString }}
+                        {{ } }}
+                        </span>
+                      <span class="ampm">
+                        {{ if(astronomyDay.moonrise.date.hour !== null) { }}
+                          {{= wui.date.strftime("%p", astronomyDay.moonrise.date) }}
+                        {{ } }}
+                      </span>
+                    </span>
+                    <span class="set">
+                      <span class="astro-data moonset-icon">
+                        {{ if(astronomyDay.moonset.date.hour !== null) { }}
+                          {{= wui.date.strftime("%l:%M", astronomyDay.moonset.date) }}
+                        {{ } else { }}
+                          {{= errorString }}
+                        {{ } }}
+                      </span>
+                      <span class="ampm">
+                        {{ if(astronomyDay.moonset.date.hour !== null) { }}
+                          {{= wui.date.strftime("%p", astronomyDay.moonset.date) }}
+                        {{ } }}
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <table cellspacing="0" cellpadding="0" class="vertFctTable responsive">
+                <thead>
+                  <tr>
+                    <th>{{= labels.time.label }}</th>
+                    <th>{{= labels.temperature.abbrev }}</th>
+                    <th>{{= labels.feelslike.label }}</th>
+                    <th>{{= labels.dewpoint.label }}</th>
+                    <th>{{= labels.humidity.label }}</th>
+                    <th colspan="2">{{= labels.conditions.label }}</th>
+                    <th>{{= labels.precipitation.abbrev }}</th>
+                    <th>Liquid Precip.</th>
+                    <th class="nobr">{{= labels.wind.label }} <span>({{= labels.wind_speed.units }})</span></th>
+                    <th>{{= labels.cloudcover.label }}</th>
+                    <th>{{= labels.pressure.label }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{ _.each(day.hours, function(hour) { }}
+                    <tr>
+                      <td>{{= wui.date.strftime("%l %P",hour.date) }}</td>
+                      <td class="nobr">{{= hour.temperature }} {{= labels.temperature.units }}</td>
+                      <td class="nobr">{{= hour.feelslike }} {{= labels.feelslike.units }}</td>
+                      <td class="nobr">{{= hour.dewpoint }} {{= labels.dewpoint.units }}</td>
+                      <td>{{= hour.humidity }}{{= labels.humidity.units }}</td>
+                      <td><img src="{{= hour.icon_url }}" alt="{{= hour.condition }}" class="no-scale" /></td>
+                      <td>{{= hour.condition }}</td>
+                      <td>{{= hour.pop }}{{= labels.pop.units }}</td>
+                      <td>{{= hour.liquid_precip }} {{= labels.rainfall.units }}</td>
+                      <td><span class="nobr">{{= hour.wind_speed }}</span> {{= hour.wind_dir }}</td>
+                      <td>{{= hour.cloudcover }}{{= labels.cloudcover.units }}</td>
+                      <td>{{= hour.pressure }}{{= labels.pressure.units }}</td>
+                    </tr>
+                  {{ }); }}
+                </tbody>
+              </table>
+            </div>
+          </dd>
+        {{ } }}
+      </script>
+      <div id="hourly-vertical" class="show-for-small hide-for-medium-up">
+        <dl class="accordion" data-accordion>
+          <!-- fct day nodes will be inserted here -->
+        </dl>
+      </div>
+      <script type="text/template" id="table-horizontal-day-template">
+        <div id="fctDayScroll">
+          <div class="fctDayArrow" id="fctDayLeftArrow">
+          </div>
+          <div class="fctDayArrow" id="fctDayRightArrow">
+          </div>
+          <ul id="fctDaySelect">
+            {{ _.each(weather.forecast.days, function(day) { }}
+              {{ if (day.summary) { }}
+                {{
+                  var snowRange = day.summary.snow_range == null ? (weather.response.units === 'metric' ? '< 2' : '< 1') : day.summary.snow_range;
+                  var precipAmount = day.summary.precip_type === 'snow' ? snowRange : (day.summary.liquid_precip || 0);
+                  var precipUnits = day.summary.precip_type === 'snow' ? labels.snow_depth.units : labels.rainfall.units;
+                }}
+                {{ precipAmount = precipAmount == null ? '< 1' : precipAmount; }}
+                <li id="fctDay-{{= day.summary.date.year }}{{= wui.date.pad(day.summary.date.month) }}{{= wui.date.pad(day.summary.date.day) }}">
+                  <a href="#horizontal-day-{{= day.summary.date.yday }}">
+                    <div class="day-title">{{= day.summary.date.weekday }} {{= wui.date.strftime("%m/%d",day.summary.date) }}</div>
+                    <div class="temps"><span class="hi">{{= day.summary.high }}&deg;</span> <span class="split">|</span> <span class="lo">{{= day.summary.low }}&deg;</span></div>
+                    <div><img src="{{= day.summary.icon_url }}" alt="{{= day.summary.condition }}" /></div>
+                    <div class="cond-text">{{= day.summary.condition }}</div>
+                    <div><span class="pop{{ if (day.summary.precip_type === 'snow') {}} snow{{ } if(day.summary.pop >= 30) {}} wet{{}}}" title="{{= labels.pop.label }}"></span><strong>{{= day.summary.pop }}</strong>{{= labels.pop.units }} / <strong>{{= precipAmount }}</strong> {{= precipUnits }}</div>
+                  </a>
+                </li>
+              {{ } }}
+            {{ }); }}
+          </ul>
+        </div>
+      </script>
+      <script type="text/template" id="table-horizontal-details-template">
+        {{ for (var index = 0; index < weather.forecast.days.length; index++) { }}
+          {{
+            var day = weather.forecast.days[index];
+            var astronomyDay = weather.astronomy && weather.astronomy.days.length ? weather.astronomy.days[index] : null;
+            var latitude = weather.response && weather.response.location && typeof weather.response.location.latitude !== 'undefined' ? weather.response.location.latitude : null;
+            var moonDirection = 'moonNorth';
+            var errorString = 'Not Available';
+          }}
+
+          {{ if (day.summary) { }}
+            <div id="horizontal-day-{{= day.summary.date.yday }}" class="fctDetails">
+
+              <div class="fctText row">
+                {{ _.each([day.summary.day, day.summary.night], function(period, index) { }}
+                  {{ if (period.title !== null) { }}
+                    {{
+                      var snowRange = period.snow_range == null ? (weather.response.units === 'english' ? '< 1' : '< 2') : period.snow_range;
+                      var precipAmount = period.precip_type === 'snow' ? snowRange : (period.liquid_precip || 0);
+                      var precipUnits = period.precip_type === 'snow' ? labels.snow_depth.units : labels.rainfall.units;
+                    }}
+
+                    {{ precipAmount = precipAmount == null ? '< 1' : precipAmount; }}
+                    <div class="small-12 medium-6 large-6 columns">
+                      <div class="fct-icon">
+                        <img src="{{= period.icon_url }}" class="no-scale" />
+                      </div>
+                      <div class="fct-content">
+                        <span class="fct-title">{{= period.title }}</span>
+                        <span class="fct-date">{{= wui.date.strftime("%m/%d",day.summary.date) }}</span>
+                        <span class="precip-wrap">
+                          <span class="pop{{ if (period.precip_type === 'snow') {}} snow{{ } if(period.pop >= 30) {}} wet{{}}}" title="{{= labels.pop.label }}"></span><strong>{{= period.pop }}</strong>{{= labels.pop.units }} / <strong>{{= precipAmount }}</strong> {{= precipUnits }}
+                        </span>
+                        <p>{{= period.text }}</p>
+                      </div>
+                    </div>
+                  {{ } }}
+                {{ }); }}
+              </div>
+
+              {{ if (astronomyDay) { }}
+                <div class="fctText row astronomy-data">
+                  <div class="fct-item sun small-12 medium-6 large-6 columns">
+                    <div class="fct-icon">
+                      <span class="sun-icon"></span>
+                    </div>
+                    <div class="fct-content">
+                      <h5>Sun</h5>
+                      <span class="rise">
+                        <span class="astro-data sunrise-icon">
+                          {{ if(astronomyDay.sunrise.date.hour !== null) { }}
+                            {{= wui.date.strftime("%l:%M", astronomyDay.sunrise.date) }}
+                          {{ } else { }}
+                            {{= errorString }}
+                          {{ } }}
+                        </span>
+                        <span class="ampm">
+                          {{ if(astronomyDay.sunrise.date.hour !== null) { }}
+                            {{= wui.date.strftime("%p", astronomyDay.sunrise.date) }}
+                          {{ } }}
+                        </span>
+                      </span>
+                      <span class="set">
+                        <span class="astro-data sunset-icon">
+                          {{ if(astronomyDay.sunset.date.hour !== null) { }}
+                            {{= wui.date.strftime("%l:%M", astronomyDay.sunset.date) }}
+                          {{ } else { }}
+                            {{= errorString }}
+                          {{ } }}
+                        </span>
+                        <span class="ampm">
+                          {{ if(astronomyDay.sunset.date.hour !== null) { }}
+                            {{= wui.date.strftime("%p", astronomyDay.sunset.date) }}
+                          {{ } }}
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="fct-item moon small-12 medium-6 large-6 columns">
+                    <div class="fct-icon">
+                      <span class="moon-icon"></span>
+                    </div>
+                    <div class="fct-content">
+                      <h5>Moon</h5>
+                      {{ if (latitude !== null) { }}
+                        {{ if (latitude < 0) { }}
+                          {{ moonDirection = 'moonSouth'; }}
+                        {{ } }}
+                        <span class="{{= moonDirection }} moon-phase">
+                          <span class="astro-data p-{{= astronomyDay.moon_icon }}"></span>
+                          <span><strong>{{= astronomyDay.moon_phase }}, {{= astronomyDay.moon_percent_illuminated }}</strong>% visible</span>
+                        </span>
+                      {{ } }}
+                      <span class="rise-set">
+                        <span class="rise">
+                          <span class="astro-data moonrise-icon">
+                            {{ if(astronomyDay.moonrise.date.hour !== null) { }}
+                              {{= wui.date.strftime("%l:%M", astronomyDay.moonrise.date) }}
+                            {{ } else { }}
+                              {{= errorString }}{{ } }}
+                            </span>
+                          <span class="ampm">
+                            {{ if(astronomyDay.moonrise.date.hour !== null) { }}
+                              {{= wui.date.strftime("%p", astronomyDay.moonrise.date) }}
+                            {{ } }}
+                          </span>
+                        </span>
+                        <span class="set">
+                          <span class="astro-data moonset-icon">
+                            {{ if(astronomyDay.moonset.date.hour !== null) { }}
+                              {{= wui.date.strftime("%l:%M", astronomyDay.moonset.date) }}
+                            {{ } else { }}
+                              {{= errorString }}
+                            {{ } }}
+                          </span>
+                          <span class="ampm">
+                            {{ if(astronomyDay.moonset.date.hour !== null) { }}
+                              {{= wui.date.strftime("%p", astronomyDay.moonset.date) }}
+                            {{ } }}
+                          </span>
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              {{ } }}
+
+              <div class="fctHourly">
+                <table cellspacing="0" cellpadding="0">
+                  <thead>
+                    <tr>
+                      <th>{{= labels.time.label }}</th>
+                      <th>{{= labels.temperature.abbrev }}</th>
+                      <th>{{= labels.feelslike.label }}</th>
+                      <th>{{= labels.dewpoint.label }}</th>
+                      <th>{{= labels.humidity.label }}</th>
+                      <th colspan="2">{{= labels.conditions.label }}</th>
+                      <th>{{= labels.precipitation.abbrev }}</th>
+                      <th>Liquid Precip.</th>
+                      <th>{{= labels.wind.label }}</th>
+                      <th>{{= labels.cloudcover.label }}</th>
+                      <th>{{= labels.pressure.label }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {{ _.each(day.hours, function(hour) { }}
+                      <tr>
+                        <td class="nobr">{{= wui.date.strftime("%l:00 %P",hour.date) }}</td>
+                        <td class="nobr">{{= hour.temperature }} {{= labels.temperature.units }}</td>
+                        <td class="nobr">{{= hour.feelslike }} {{= labels.feelslike.units }}</td>
+                        <td class="nobr">{{= hour.dewpoint }} {{= labels.dewpoint.units }}</td>
+                        <td>{{= hour.humidity }}{{= labels.humidity.units }}</td>
+                        <td><img src="{{= hour.icon_url }}" alt="{{= hour.condition }}" class="no-scale" /></td>
+                        <td>{{= hour.condition }}</td>
+                        <td>{{= hour.pop }}{{= labels.pop.units }}</td>
+                        <td>{{= hour.liquid_precip }} {{= labels.rainfall.units }}</td>
+                        <td><span class="nobr">{{= hour.wind_speed }} {{= labels.wind_speed.units }}</span> {{= hour.wind_dir }}</td>
+                        <td>{{= hour.cloudcover }}{{= labels.cloudcover.units }}</td>
+                        <td>{{= hour.pressure }}{{= labels.pressure.units }}</td>
+                      </tr>
+                    {{ }); }}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          {{ } }}
+        {{ } }}
+
+      </script>
+      <div id="hourly-horizontal" class="show-for-medium-up hide-for-small">
+        <!-- fct day nodes will be inserted here -->
+        <!-- fct detail nodes will be inserted here -->
+      </div>
+    </div>
+    <div class="content" id="forecast-extended">
+      <script type="text/template" id="extended-template">
+        <div id="extented-forecat">
+          {{ _.each(weather.forecast.days, function(period,periodindex) { }}
+            {{ if (period.summary.day.text !== null) { }}
+              {{
+                var snowRangeDay = period.summary.day.snow_range == null ? (weather.response.units === 'metric' ? '< 2' : '< 1') : period.summary.day.snow_range;
+                var precipAmountDay = period.summary.day.precip_type === 'snow' ? snowRangeDay : (period.summary.day.liquid_precip || 0);
+                precipAmountDay = precipAmountDay == null ? '< 1' : precipAmountDay;
+                precipUnitsDay = period.summary.day.precip_type === 'snow' ? labels.snow_depth.units : labels.rainfall.units;
+
+                var snowRangeNight= period.summary.night.snow_range == null ? (weather.response.units === 'metric' ? '< 2' : '< 1') : period.summary.night.snow_range;
+                var precipAmountNight = period.summary.night.precip_type === 'snow' ? snowRangeNight : (period.summary.night.liquid_precip || 0);
+                precipAmountNight = precipAmountNight == null ? '< 1' : precipAmountNight;
+                precipUnitsNight = period.summary.night.precip_type === 'snow' ? labels.snow_depth.units : labels.rainfall.units;
+              }}
+
+              <div id="fctDay-{{= period.summary.date.year }}{{= wui.date.pad(period.summary.date.month) }}{{= wui.date.pad(period.summary.date.day) }}" class="day-row {{ if (periodindex>=3) { }}fct3{{ } }}">
+                <div class="summary">
+                  <span class="weekday">{{= period.summary.date.weekday }}</span>
+                  <span class="date">{{= wui.date.strftime("%m/%d",period.summary.date) }}</span>
+                  <span class="temps">
+                    <span class="high">{{= period.summary.high }}</span>
+                    <span class="split">|</span>
+                    <span class="low">{{= period.summary.low }}</span>
+                    {{= labels.temperature.units }}
+                  </span>
+                </div>
+                <div class="day">
+                  <img src="{{= period.summary.day.icon_url }}" />
+                  <span class="title"><span class="long">{{= period.summary.date.weekday }}</span><span class="short">{{= period.summary.date.weekday_short }}</span></span>
+                  <span class="pop{{ if (period.summary.day.precip_type === 'snow') {}} snow{{ } if(period.summary.day.pop >= 30) {}} wet{{}}}" title="{{= labels.pop.label }}"><span>{{= period.summary.day.pop }}</span>{{= labels.pop.units }} {{= labels.precipitation.abbrev }} / <strong>{{= precipAmountDay }}</strong> {{= precipUnitsDay }}</span>
+                  <p>{{= period.summary.day.text }}</p>
+                </div>
+                <div class="night">
+                  <img src="{{= period.summary.night.icon_url }}" />
+                  <span class="title"><span class="long">{{= period.summary.date.weekday }}</span><span class="short">{{= period.summary.date.weekday_short }}</span> Night</span>
+                  <span class="pop{{ if (period.summary.night.precip_type === 'snow') {}} snow{{ } if(period.summary.night.pop >= 30) {}} wet{{}}}" title="{{= labels.pop.label }}"><span>{{= period.summary.night.pop }}</span>{{= labels.pop.units }} {{= labels.precipitation.abbrev }} / <strong>{{= precipAmountNight }}</strong> {{= precipUnitsNight }}</span>
+                  <p>{{= period.summary.night.text }}</p>
+                </div>
+              </div>
+            {{ } }}
+          {{ }); }}
+        </div>
+        <p class="fct3-toggle">
+          <a href="#" class="fct3-toggle-show">More Days</a>
+          <a href="#" class="fct3-toggle-hide">Fewer Days</a>
+        </p>
+      </script>
+      <div id="extended">
+        <!-- fct nodes will be inserted here -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.locId = 'PKXX0006';
+  window.tempUnit = 'F';
+  window.forecastTabIndex = (function(){
+    if (window.localStorage && window.localStorage.getItem('forecastTabIndex')){
+      return parseInt(localStorage.getItem('forecastTabIndex'), 10);
+    }
+    return 1;
+  })();
+  $(function(){
+    $('#forecast .ui-tabs-nav').on('click', 'li', function(e){
+      localStorage && localStorage.setItem('forecastTabIndex', $(this).index());
+    });
+  });
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script src="//images.intellicast.com/Scripts/wu.graph.v9.js"></script>
+
+
+
+
+
+<div id="icastForecast" style="display:none;">
+  <!-- HOURLY -->
+  <div style="clear:both;"></div>
+  <div style="float:left;width:427px;height:172px;">
+	  <div class="Chrome">
+		  <div class="Title">Hourly Forecast&nbsp;-&nbsp;
+			  
+			  &deg;<strong>F</strong> <span style="font-weight:normal;color:white;">| <a href="/Local/Weather.aspx?unit=C&location=PKXX0006" style="color:white;">&deg;C</a></span>
+			  
+		  </div>
+		  <div style="float: right;">Hi 99&deg; - Lo 73&deg;</div>
+	  </div>
+
+	  <table style="margin-top: 3px;margin-bottom:10px;height:99px;">
+		  <tr>
+			  
+			  <td style="padding-top:10px;text-align:center;height:33px;width:71px;background: url(http://images.intellicast.com/App_Images/timelineticks.gif) left top no-repeat; ">
+				  <div style="padding-bottom:15px;"><strong>3 PM</strong></div>
+				  <div style="padding-bottom:5px;"><a href="/Local/Hourly.aspx" title="Hourly Forecast"><img src="http://images.intellicast.com/App_Images/32_white/wx_66.png" title="P Cloudy" alt="P Cloudy" /></a></div>
+				  P Cloudy<br />
+				  101&deg;
+			  </td>
+			  
+			  <td style="padding-top:10px;text-align:center;height:33px;width:71px;background: url(http://images.intellicast.com/App_Images/timelineticks.gif) left top no-repeat; ">
+				  <div style="padding-bottom:15px;"><strong>4 PM</strong></div>
+				  <div style="padding-bottom:5px;"><a href="/Local/Hourly.aspx" title="Hourly Forecast"><img src="http://images.intellicast.com/App_Images/32_white/wx_66.png" title="P Cloudy" alt="P Cloudy" /></a></div>
+				  P Cloudy<br />
+				  100&deg;
+			  </td>
+			  
+			  <td style="padding-top:10px;text-align:center;height:33px;width:71px;background: url(http://images.intellicast.com/App_Images/timelineticks.gif) left top no-repeat; ">
+				  <div style="padding-bottom:15px;"><strong>5 PM</strong></div>
+				  <div style="padding-bottom:5px;"><a href="/Local/Hourly.aspx" title="Hourly Forecast"><img src="http://images.intellicast.com/App_Images/32_white/wx_69.png" title="M Cloudy" alt="M Cloudy" /></a></div>
+				  M Cloudy<br />
+				  97&deg;
+			  </td>
+			  
+			  <td style="padding-top:10px;text-align:center;height:33px;width:71px;background: url(http://images.intellicast.com/App_Images/timelineticks.gif) left top no-repeat; ">
+				  <div style="padding-bottom:15px;"><strong>6 PM</strong></div>
+				  <div style="padding-bottom:5px;"><a href="/Local/Hourly.aspx" title="Hourly Forecast"><img src="http://images.intellicast.com/App_Images/32_white/wx_66.png" title="P Cloudy" alt="P Cloudy" /></a></div>
+				  P Cloudy<br />
+				  95&deg;
+			  </td>
+			  
+			  <td style="padding-top:10px;text-align:center;height:33px;width:71px;background: url(http://images.intellicast.com/App_Images/timelineticks.gif) left top no-repeat; ">
+				  <div style="padding-bottom:15px;"><strong>7 PM</strong></div>
+				  <div style="padding-bottom:5px;"><a href="/Local/Hourly.aspx" title="Hourly Forecast"><img src="http://images.intellicast.com/App_Images/32_white/wx_66.png" title="P Cloudy" alt="P Cloudy" /></a></div>
+				  P Cloudy<br />
+				  94&deg;
+			  </td>
+			  
+			  <td style="padding-top:10px;text-align:center;height:33px;width:71px;background: url(http://images.intellicast.com/App_Images/timelineticks.gif) left top no-repeat; ">
+				  <div style="padding-bottom:15px;"><strong>8 PM</strong></div>
+				  <div style="padding-bottom:5px;"><a href="/Local/Hourly.aspx" title="Hourly Forecast"><img src="http://images.intellicast.com/App_Images/32_white/wx_98.png" title="P Cloudy" alt="P Cloudy" /></a></div>
+				  P Cloudy<br />
+				  92&deg;
+			  </td>
+			  
+			  <td style="padding-top:10px;text-align:center;height:33px;width:1px;background: url(http://images.intellicast.com/App_Images/timelineticks.gif) left top no-repeat;">
+				  <div style="width:1px;height:1px;"></div>
+			  </td>
+		  </tr>
+	  </table>
+    <div class="ContainerLink" style="margin-bottom:10px;font-family:'Segoe UI', Tahoma, sans-serif; font-size:12px; padding:5px 10px;text-align:left;border-top:none;background-color:#e3e6ea;">
+		  View detailed Hourly Forecast&nbsp;&nbsp;<a href="/Local/Hourly.aspx?location=PKXX0006">Today</a>  &middot;  <a href="/Local/Hourly.aspx?location=PKXX0006&day=Tomorrow">Tomorrow</a> &middot; <a href="/Local/Hourly.aspx?location=PKXX0006&day=Next%20Day">Next Day</a>
+    </div>
+  </div>
+
+  <!-- WEATHER MAPS -->
+  <div style="float:left;width:222px;height:172px;margin-left:10px;">
+	  <div class="Chrome">
+		  <div class="Title">Weather Maps</div>
+	  </div>
+	  <div>
+		  <div id="mapLinks" style="margin:5px 10px;height:29px;">
+			  Interactive Map Layers<br />
+			  <a href="javascript:internalPageLink('/Local/WxMap.aspx?latitude=33.72&longitude=73.06&zoomLevel=8&opacity=1&basemap=0014&&layers=0040');">Satellite</a> · 
+			  <a href="javascript:internalPageLink('/Local/WxMap.aspx?latitude=33.72&longitude=73.06&zoomLevel=8&opacity=1&basemap=0014&&layers=0144');">Storms</a> · 
+			  <a href="javascript:internalPageLink('/Local/WxMap.aspx?latitude=33.72&longitude=73.06&zoomLevel=8&opacity=1&basemap=0014&&layers=0055,0120');">Temperatures</a><br />
+		  </div>
+		  <div style="margin:5px 10px;height:70px;">
+			  <a href="/Local/WxMap.aspx?location=PKXX0006">
+				  <img src="http://images.intellicast.com/App_Images/Interactive-radar2.png" alt="Interactive Weather Map" />
+			  </a>
+		  </div>
+	  </div>
+    <div class="ContainerLink" style="margin-bottom:10px;font-family:'Segoe UI', Tahoma, sans-serif; font-size:12px; padding:5px 10px;text-align:left;border-top:none;background-color:#e3e6ea;">
+		  Static&nbsp;&nbsp;<a href="/National/Radar/Current.aspx?location=PKXX0006">Radar</a> &middot; <a href="/National/Satellite/Regional.aspx?location=PKXX0006">Satellite</a> &middot; <a href="/National/Surface/Current.aspx?location=PKXX0006">Surface</a>
+    </div>
+  </div>
+
+  <!-- Daily Forecast Table -->
+  <div class="Chrome" style="clear:both;">
+    <div class="Title">Daily Forecast&nbsp;-&nbsp;
+    
+      &deg;<strong>F</strong> <span class="Fine">|</span> <a href="/Local/Weather.aspx?unit=C&location=PKXX0006" style="font-weight:normal;color:white;">&deg;C</a>
+      
+    </div>
+    <div style="float: right;"><a style="color:#FFF;" href="/Local/Forecast.aspx">View the Detailed Extended Forecast &raquo;</a></div>
+  </div>
+  <div style="margin-bottom:10px;">
+    <table id="daily">
+      <tr>
+      <td class="DOW Selected" id="dow0" onclick="javascript: changeDay(0);">mon</td>
+      <td class="DOW" id="dow1" onclick="javascript: changeDay(1);">tue</td>
+      <td class="DOW" id="dow2" onclick="javascript: changeDay(2);">wed</td>
+      <td class="DOW" id="dow3" onclick="javascript: changeDay(3);">thu</td>
+      <td class="DOW" id="dow4" onclick="javascript: changeDay(4);">fri</td>
+      <td class="DOW Weekend" id="dow5" onclick="javascript: changeDay(5);">sat</td>
+      <td class="DOW Weekend" id="dow6" onclick="javascript: changeDay(6);">sun</td>
+      <td class="DOW" id="dow7" onclick="javascript: changeDay(7);">mon</td>
+      <td class="DOW" id="dow8" onclick="javascript: changeDay(8);">tue</td>
+      <td class="DOW End" id="dow9" onclick="javascript: changeDay(9);">wed</td>
+      </tr><tr style="vertical-align: top;"><td class="FWX FWXSelected" id="fwx0" onclick="javascript: changeDay(0);">
+            <div class="Month">may</div>
+            <div class="DayNum">23</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_66.png" alt="P Cloudy" title="P Cloudy" /><br />
+              P Cloudy
+            </div>
+            <div class="Hi">99&deg;</div>
+            <div class="Lo">73&deg;</div>
+          </td><td class="FWX" id="fwx1" onclick="javascript: changeDay(1);">
+            <div class="Month">may</div>
+            <div class="DayNum">24</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_66.png" alt="P Cloudy" title="P Cloudy" /><br />
+              P Cloudy
+            </div>
+            <div class="Hi">97&deg;</div>
+            <div class="Lo">73&deg;</div>
+          </td><td class="FWX" id="fwx2" onclick="javascript: changeDay(2);">
+            <div class="Month">may</div>
+            <div class="DayNum">25</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_85.png" alt="Sunny" title="Sunny" /><br />
+              Sunny
+            </div>
+            <div class="Hi">100&deg;</div>
+            <div class="Lo">74&deg;</div>
+          </td><td class="FWX" id="fwx3" onclick="javascript: changeDay(3);">
+            <div class="Month">may</div>
+            <div class="DayNum">26</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_85.png" alt="Sunny" title="Sunny" /><br />
+              Sunny
+            </div>
+            <div class="Hi">104&deg;</div>
+            <div class="Lo">77&deg;</div>
+          </td><td class="FWX" id="fwx4" onclick="javascript: changeDay(4);">
+            <div class="Month">may</div>
+            <div class="DayNum">27</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_65.png" alt="M Sunny" title="M Sunny" /><br />
+              M Sunny
+            </div>
+            <div class="Hi">105&deg;</div>
+            <div class="Lo">79&deg;</div>
+          </td><td class="FWX" id="fwx5" onclick="javascript: changeDay(5);">
+            <div class="Month">may</div>
+            <div class="DayNum">28</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_65.png" alt="M Sunny" title="M Sunny" /><br />
+              M Sunny
+            </div>
+            <div class="Hi">104&deg;</div>
+            <div class="Lo">77&deg;</div>
+          </td><td class="FWX" id="fwx6" onclick="javascript: changeDay(6);">
+            <div class="Month">may</div>
+            <div class="DayNum">29</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_85.png" alt="Sunny" title="Sunny" /><br />
+              Sunny
+            </div>
+            <div class="Hi">105&deg;</div>
+            <div class="Lo">77&deg;</div>
+          </td><td class="FWX" id="fwx7" onclick="javascript: changeDay(7);">
+            <div class="Month">may</div>
+            <div class="DayNum">30</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_85.png" alt="Sunny" title="Sunny" /><br />
+              Sunny
+            </div>
+            <div class="Hi">103&deg;</div>
+            <div class="Lo">75&deg;</div>
+          </td><td class="FWX" id="fwx8" onclick="javascript: changeDay(8);">
+            <div class="Month">may</div>
+            <div class="DayNum">31</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_85.png" alt="Sunny" title="Sunny" /><br />
+              Sunny
+            </div>
+            <div class="Hi">104&deg;</div>
+            <div class="Lo">76&deg;</div>
+          </td><td class="FWX End" id="fwx9" onclick="javascript: changeDay(9);">
+            <div class="Month">jun</div>
+            <div class="DayNum">01</div>
+            <div class="Wx">
+              <img src="http://images.intellicast.com/App_Images/40_clear/wx_85.png" alt="Sunny" title="Sunny" /><br />
+              Sunny
+            </div>
+            <div class="Hi">108&deg;</div>
+            <div class="Lo">78&deg;</div>
+          </td>
+      </tr>
+    </table><div id="detail0" class="Details Bucket Selected" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Monday, May 23
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      Sunshine and clouds mixed. High 99F. Winds E at 10 to 15 mph.<br />
+        <strong>Evening:</strong> Partly cloudy skies. Low 73F. Winds NE at 10 to 15 mph.<table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 5  (Moderate)
+          <div class="Key">
+            <div style="width: 42%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 30%
+          <div class="Key">
+            <div style="width: 30%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 20%
+          <div class="Key">
+            <div style="width: 20%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 52%
+          <div class="Key">
+            <div style="width: 52%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 5:01 AM<br />
+             <strong>Sunset:</strong> 7:07 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 8:21 PM<br />
+             <strong>Moonset:</strong> 6:12 AM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_5.png" alt="Moon Phase:  Waning Gibbous" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Waning Gibbous
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_ENE.png" alt="Wind Direction:  ENE" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> ENE <span class="Fine"> (61&deg;) </span><br />
+            <strong>Speed:</strong> 13Mph<span class="Fine">(21Km,  11Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div><div id="detail1" class="Details Bucket" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Tuesday, May 24
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      Intervals of clouds and sunshine. High 97F. Winds NE at 10 to 15 mph.<br />
+        <strong>Evening:</strong> Clear skies. Low 73F. Winds NNE at 10 to 15 mph.<table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 10  (Very High)
+          <div class="Key">
+            <div style="width: 83%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 40%
+          <div class="Key">
+            <div style="width: 40%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 20%
+          <div class="Key">
+            <div style="width: 20%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 38%
+          <div class="Key">
+            <div style="width: 38%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 5:01 AM<br />
+             <strong>Sunset:</strong> 7:07 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 9:12 PM<br />
+             <strong>Moonset:</strong> 6:59 AM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_5.png" alt="Moon Phase:  Waning Gibbous" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Waning Gibbous
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_NE.png" alt="Wind Direction:  NE" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> NE <span class="Fine"> (35&deg;) </span><br />
+            <strong>Speed:</strong> 12Mph<span class="Fine">(19Km,  11Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div><div id="detail2" class="Details Bucket" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Wednesday, May 25
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      Sunny. Highs 98 to 102F and lows in the mid 70s.<br />
+        <table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 10  (Very High)
+          <div class="Key">
+            <div style="width: 83%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 31%
+          <div class="Key">
+            <div style="width: 31%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 6%
+          <div class="Key">
+            <div style="width: 6%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 5:00 AM<br />
+             <strong>Sunset:</strong> 7:08 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 10:00 PM<br />
+             <strong>Moonset:</strong> 7:49 AM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_5.png" alt="Moon Phase:  Waning Gibbous" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Waning Gibbous
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_WSW.png" alt="Wind Direction:  WSW" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> WSW <span class="Fine"> (253&deg;) </span><br />
+            <strong>Speed:</strong> 13Mph<span class="Fine">(21Km,  12Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div><div id="detail3" class="Details Bucket" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Thursday, May 26
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      Sunny. Highs 102 to 106F and lows in the upper 70s.<br />
+        <table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 10  (Very High)
+          <div class="Key">
+            <div style="width: 83%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 26%
+          <div class="Key">
+            <div style="width: 26%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 4%
+          <div class="Key">
+            <div style="width: 4%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 5:00 AM<br />
+             <strong>Sunset:</strong> 7:09 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 10:46 PM<br />
+             <strong>Moonset:</strong> 8:44 AM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_5.png" alt="Moon Phase:  Waning Gibbous" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Waning Gibbous
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_WSW.png" alt="Wind Direction:  WSW" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> WSW <span class="Fine"> (247&deg;) </span><br />
+            <strong>Speed:</strong> 15Mph<span class="Fine">(25Km,  13Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div><div id="detail4" class="Details Bucket" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Friday, May 27
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      A few clouds. Highs 103 to 107F and lows in the upper 70s.<br />
+        <table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 10  (Very High)
+          <div class="Key">
+            <div style="width: 83%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 26%
+          <div class="Key">
+            <div style="width: 26%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 17%
+          <div class="Key">
+            <div style="width: 17%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 5:00 AM<br />
+             <strong>Sunset:</strong> 7:09 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 11:29 PM<br />
+             <strong>Moonset:</strong> 9:41 AM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_5.png" alt="Moon Phase:  Waning Gibbous" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Waning Gibbous
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_WSW.png" alt="Wind Direction:  WSW" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> WSW <span class="Fine"> (250&deg;) </span><br />
+            <strong>Speed:</strong> 20Mph<span class="Fine">(32Km,  17Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div><div id="detail5" class="Details Bucket" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Saturday, May 28
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      A few clouds. Highs 102 to 106F and lows in the upper 70s.<br />
+        <table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 10  (Very High)
+          <div class="Key">
+            <div style="width: 83%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 24%
+          <div class="Key">
+            <div style="width: 24%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 17%
+          <div class="Key">
+            <div style="width: 17%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 4:59 AM<br />
+             <strong>Sunset:</strong> 7:10 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 11:59 PM<br />
+             <strong>Moonset:</strong> 10:41 AM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_5.png" alt="Moon Phase:  Waning Gibbous" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Waning Gibbous
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_WNW.png" alt="Wind Direction:  WNW" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> WNW <span class="Fine"> (285&deg;) </span><br />
+            <strong>Speed:</strong> 14Mph<span class="Fine">(22Km,  12Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div><div id="detail6" class="Details Bucket" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Sunday, May 29
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      Mainly sunny. Highs 103 to 107F and lows in the upper 70s.<br />
+        <table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 10  (Very High)
+          <div class="Key">
+            <div style="width: 83%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 24%
+          <div class="Key">
+            <div style="width: 24%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 2%
+          <div class="Key">
+            <div style="width: 2%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 4:59 AM<br />
+             <strong>Sunset:</strong> 7:10 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 12:10 AM<br />
+             <strong>Moonset:</strong> 11:42 AM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_6.png" alt="Moon Phase:  Last Quarter" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Last Quarter
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_SW.png" alt="Wind Direction:  SW" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> SW <span class="Fine"> (215&deg;) </span><br />
+            <strong>Speed:</strong> 14Mph<span class="Fine">(22Km,  12Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div><div id="detail7" class="Details Bucket" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Monday, May 30
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      Mainly sunny. Highs 101 to 105F and lows in the mid 70s.<br />
+        <table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 10  (Very High)
+          <div class="Key">
+            <div style="width: 83%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 26%
+          <div class="Key">
+            <div style="width: 26%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 20%
+          <div class="Key">
+            <div style="width: 20%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 8%
+          <div class="Key">
+            <div style="width: 8%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 4:59 AM<br />
+             <strong>Sunset:</strong> 7:11 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 12:50 AM<br />
+             <strong>Moonset:</strong> 12:45 PM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_7.png" alt="Moon Phase:  Waning Crescent" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Waning Crescent
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_SE.png" alt="Wind Direction:  SE" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> SE <span class="Fine"> (141&deg;) </span><br />
+            <strong>Speed:</strong> 15Mph<span class="Fine">(24Km,  13Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div><div id="detail8" class="Details Bucket" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Tuesday, May 31
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      Sunshine. Highs 102 to 106F and lows in the mid 70s.<br />
+        <table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 10  (Very High)
+          <div class="Key">
+            <div style="width: 83%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 26%
+          <div class="Key">
+            <div style="width: 26%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 9%
+          <div class="Key">
+            <div style="width: 9%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 4:58 AM<br />
+             <strong>Sunset:</strong> 7:12 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 1:28 AM<br />
+             <strong>Moonset:</strong> 1:49 PM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_7.png" alt="Moon Phase:  Waning Crescent" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Waning Crescent
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_SSE.png" alt="Wind Direction:  SSE" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> SSE <span class="Fine"> (149&deg;) </span><br />
+            <strong>Speed:</strong> 13Mph<span class="Fine">(21Km,  11Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div><div id="detail9" class="Details Bucket" style="border:none;padding-right:0px;">
+      <strong>
+        Details for Wednesday, June 01
+        <!-- Check if Day or Evening -->
+        
+      </strong><br />
+      Mainly sunny. Highs 106 to 110F and lows in the upper 70s.<br />
+        <table class="Gauge">
+      <tr>
+        <td style="font-size:10px;">                    
+          
+          UV Index: 10  (Very High)
+          <div class="Key">
+            <div style="width: 83%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_uv.gif" alt='Ultraviolet Radiation Index' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Relative Humidity: 24%
+          <div class="Key">
+            <div style="width: 24%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_humidity.gif" alt='Relative Humidity' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Precipitation: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_precip.gif" alt='Probability of Precipitation' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">
+          Snow: 0%
+          <div class="Key">
+            <div style="width: 0%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_snow.gif" alt='Snow' /></div>
+          </div>
+        </td>
+        <td style="font-size:10px;">                    
+          Cloud Coverage: 4%
+          <div class="Key">
+            <div style="width: 4%"><img src="http://images.intellicast.com/App_Themes/Silver/Images/wx_clouds.gif" alt='Cloud Coverage' /></div>
+          </div>
+        </td>
+      </tr>
+     </table>
+     <table class="Meters" style="font-size:10px;">
+       <tr>
+         <td class="Sun" style="font-size:10px;">
+           <div>
+             <strong>Sunrise:</strong> 4:58 AM<br />
+             <strong>Sunset:</strong> 7:12 PM
+           </div>  
+         </td>
+         <td style="width: 8px;">&nbsp;</td>
+         <td class="Moon" style="font-size:10px;">
+           <div>
+             <strong>Moonrise:</strong> 2:08 AM<br />
+             <strong>Moonset:</strong> 2:56 PM
+           </div>
+         </td>
+         <td style="font-size:10px;">
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/phase_7.png" alt="Moon Phase:  Waning Crescent" /></div>
+           <div style="float: right;">
+             <strong>Moonphase:</strong><br />
+             Waning Crescent
+           </div>
+         </td>
+         <td style="font-size:10px;">
+         <!-- Set Wind Cardinal Image -->
+         
+           <div style="float: left;"><img src="http://images.intellicast.com/App_Images/wind_SW.png" alt="Wind Direction:  SW" /></div>
+           <div style="float: right;">
+            <strong>Direction:</strong> SW <span class="Fine"> (218&deg;) </span><br />
+            <strong>Speed:</strong> 15Mph<span class="Fine">(24Km,  13Kts) </span>
+           </div>
+         </td>
+       </tr>
+     </table>
+    </div> 
+  </div>
+
+  <!-- Daily Forecast Chart -->
+  <a name="chart"></a>
+  <div class="Chrome">
+    <div class="Title">Daily Forecast Chart</div>
+  </div>
+  <div class="Container" style="background-color: #e3e6ea; padding-bottom: 5px;"><!-- START Script Block for Chart dailyForecast -->
+<div id='dailyForecastDiv' align='center'>
+Chart.
+</div>
+<script type="text/javascript">
+var chart_dailyForecast = new FusionCharts("/FusionCharts/MSLine.swf?ChartNoDataText=Forecast data is currently unavailable", "dailyForecast", "650", "300", "0", "0");
+chart_dailyForecast.setDataXML("<chart bgcolor='e3e6ea' showBorder='0' chartBottomMargin='5' chartRightMargin='5' chartLeftMargin='5' chartTopMargin='5' lineThickness='3' baseFontColor='333333' alternateHGridColor='DDDDDD' canvasPadding='15' divLineColor='FFFFFF' showShadow='0' caption='Temperature (F)' alternateHGridAlpha='0' canvasBgColor='FF9898,FFED98,F5F6E4,DCEDFF' canvasBgAlpha='20,20' canvasBgRatio='0,20,50,100' canvasBgAngle='90' slantLabels='0' numDivLines='6' yAxisMaxValue='120' yAxisMinValue='-20'><categories><category label='Mon 23' /><category label='Tue 24' /><category label='Wed 25' /><category label='Thu 26' /><category label='Fri 27' /><category label='Sat 28' /><category label='Sun 29' /><category label='Mon 30' /><category label='Tue 31' /><category label='Wed 01' /></categories><dataset seriesName='Highs' color='990000'><set value='99' tooltext='Date: Mon May 23\nHigh: 99F\nLow: 73F\nUV: Moderate(5/12)\nHumidity: 30% \nPrecip: 20% \nSnow: 0% \nWind: ENE 13mph \nClouds: 52% \n' /><set value='97' tooltext='Date: Tue May 24\nHigh: 97F\nLow: 73F\nUV: Very High(10/12)\nHumidity: 40% \nPrecip: 20% \nSnow: 0% \nWind: NE 12mph \nClouds: 38% \n' /><set value='100' tooltext='Date: Wed May 25\nHigh: 100F\nLow: 74F\nUV: Very High(10/12)\nHumidity: 31% \nPrecip: 0% \nSnow: 0% \nWind: WSW 13mph \nClouds: 6% \n' /><set value='104' tooltext='Date: Thu May 26\nHigh: 104F\nLow: 77F\nUV: Very High(10/12)\nHumidity: 26% \nPrecip: 0% \nSnow: 0% \nWind: WSW 15mph \nClouds: 4% \n' /><set value='105' tooltext='Date: Fri May 27\nHigh: 105F\nLow: 79F\nUV: Very High(10/12)\nHumidity: 26% \nPrecip: 0% \nSnow: 0% \nWind: WSW 20mph \nClouds: 17% \n' /><set value='104' tooltext='Date: Sat May 28\nHigh: 104F\nLow: 77F\nUV: Very High(10/12)\nHumidity: 24% \nPrecip: 0% \nSnow: 0% \nWind: WNW 14mph \nClouds: 17% \n' /><set value='105' tooltext='Date: Sun May 29\nHigh: 105F\nLow: 77F\nUV: Very High(10/12)\nHumidity: 24% \nPrecip: 0% \nSnow: 0% \nWind: SW 14mph \nClouds: 2% \n' /><set value='103' tooltext='Date: Mon May 30\nHigh: 103F\nLow: 75F\nUV: Very High(10/12)\nHumidity: 26% \nPrecip: 20% \nSnow: 0% \nWind: SE 15mph \nClouds: 8% \n' /><set value='104' tooltext='Date: Tue May 31\nHigh: 104F\nLow: 76F\nUV: Very High(10/12)\nHumidity: 26% \nPrecip: 0% \nSnow: 0% \nWind: SSE 13mph \nClouds: 9% \n' /><set value='108' tooltext='Date: Wed Jun 01\nHigh: 108F\nLow: 78F\nUV: Very High(10/12)\nHumidity: 24% \nPrecip: 0% \nSnow: 0% \nWind: SW 15mph \nClouds: 4% \n' /></dataset><dataset seriesName='Lows' color='073F7D' showValues='0'><set value='73' tooltext='Date: Mon May 23\nHigh: 99F\nLow: 73F\nUV: Moderate(5/12)\nHumidity: 30% \nPrecip: 20% \nSnow: 0% \nWind: ENE 13mph \nClouds: 52% \n' /><set value='73' tooltext='Date: Tue May 24\nHigh: 97F\nLow: 73F\nUV: Very High(10/12)\nHumidity: 40% \nPrecip: 20% \nSnow: 0% \nWind: NE 12mph \nClouds: 38% \n' /><set value='74' tooltext='Date: Wed May 25\nHigh: 100F\nLow: 74F\nUV: Very High(10/12)\nHumidity: 31% \nPrecip: 0% \nSnow: 0% \nWind: WSW 13mph \nClouds: 6% \n' /><set value='77' tooltext='Date: Thu May 26\nHigh: 104F\nLow: 77F\nUV: Very High(10/12)\nHumidity: 26% \nPrecip: 0% \nSnow: 0% \nWind: WSW 15mph \nClouds: 4% \n' /><set value='79' tooltext='Date: Fri May 27\nHigh: 105F\nLow: 79F\nUV: Very High(10/12)\nHumidity: 26% \nPrecip: 0% \nSnow: 0% \nWind: WSW 20mph \nClouds: 17% \n' /><set value='77' tooltext='Date: Sat May 28\nHigh: 104F\nLow: 77F\nUV: Very High(10/12)\nHumidity: 24% \nPrecip: 0% \nSnow: 0% \nWind: WNW 14mph \nClouds: 17% \n' /><set value='77' tooltext='Date: Sun May 29\nHigh: 105F\nLow: 77F\nUV: Very High(10/12)\nHumidity: 24% \nPrecip: 0% \nSnow: 0% \nWind: SW 14mph \nClouds: 2% \n' /><set value='75' tooltext='Date: Mon May 30\nHigh: 103F\nLow: 75F\nUV: Very High(10/12)\nHumidity: 26% \nPrecip: 20% \nSnow: 0% \nWind: SE 15mph \nClouds: 8% \n' /><set value='76' tooltext='Date: Tue May 31\nHigh: 104F\nLow: 76F\nUV: Very High(10/12)\nHumidity: 26% \nPrecip: 0% \nSnow: 0% \nWind: SSE 13mph \nClouds: 9% \n' /><set value='78' tooltext='Date: Wed Jun 01\nHigh: 108F\nLow: 78F\nUV: Very High(10/12)\nHumidity: 24% \nPrecip: 0% \nSnow: 0% \nWind: SW 15mph \nClouds: 4% \n' /></dataset><styles><definition><style name='myHTMLFont' type='font' isHTML='1' /></definition><application><apply toObject='TOOLTIP' styles='myHTMLFont' /></application></styles><trendLines><line showOnTop='0' alpha='50' thickness='2' startValue='32' color='2F6B91' displayvalue='32' /></trendLines></chart>");
+chart_dailyForecast.setTransparent(true);
+chart_dailyForecast.render("dailyForecastDiv");
+</script>
+<!-- END Script Block for Chart dailyForecast -->
+</div>
+  <div class="ChartLinks" style="margin-top:-10px;">
+    <a href="/Local/Weather.aspx?chart=Temperature#chart" class='Selected'>Temperature</a>
+    <a href="/Local/Weather.aspx?chart=UV%20Index#chart" >UV Index</a>
+    <a href="/Local/Weather.aspx?chart=Relative%20Humidity#chart" >Relative Humidity</a>
+    <a href="/Local/Weather.aspx?chart=Precipitation#chart" >Precipitation</a>
+    <a href="/Local/Weather.aspx?chart=Snow#chart" >Snow</a>
+    <a href="/Local/Weather.aspx?chart=Clouds#chart" >Clouds</a>
+    <a href="/Local/Weather.aspx?chart=Wind#chart" >Wind</a>
+  </div>
+  <div class="ChartLinks MarginBottom">
+    <a href="/Local/Weather.aspx#chart">Daily Forecast</a>
+    <a href="/Local/Hourly.aspx#chart">Hourly Forecast</a>
+    <a href="/Local/Observation.aspx#chart">Past Observations</a>
+    <a href="/Local/History.aspx#chart">Historic Averages</a>
+  </div>
+</div>
+
+<!--[if lt IE 9]>
+<script>
+  (document.getElementById('forecast')).style.display = (document.getElementById('wxMapLink')).style.display = (document.getElementById('forecastSurveyLink')).style.display = 'none';
+  (document.getElementById('icastForecast')).style.display = 'block';
+</script>
+<![endif]-->
+
+
+  <div style="clear:both;"></div>
+  
+</div>
+<div id="rightColumn">
+  <div class="adHeader">
+    <div class="title">Advertisements</div>
+    <div class="miniAd"><a href="http://www.aolnews.com/category/nation/" target="_blank" onclick="javascript:linkTracker._trackPageview('/AOL/Header/www.aolnews.com/category/nation/');"><span>National News</span></a></div>
+  </div>
+  <!-- Old Ads -->
+  
+  <!-- Old Ads -->
+  <!-- New Ads -->
+  <div id="wxmapAdTop">
+    <div id="AdPageCounterDiv">
+      <div id="WX_PageCounter"></div>
+    </div>
+    <div id="WX_Top300Variable"></div>
+    <!-- Promo ad for storm/icast mobile -->
+	<div id="promoAd" style="position:relative;">
+    <img style="display:block;" src="http://images.intellicast.com/App_Images/Storm_TDU_300x125.png" alt="Track Severe Weather on mobile" />
+		<a style="position:absolute;display:block;width:138px;height:41px;top:76px;left:9px;" href="http://apple.co/1M5bVXZ" target="_blank"></a>
+		<a style="position:absolute;display:block;width:138px;height:41px;top:76px;left:156px;" href="http://bit.ly/1CrR6iY" target="_blank"></a>
+	</div>
+    <div id="WX_Mid300"></div>
+    <div id="WX_Hidden"></div>
+    <div id="WX_Tiles">
+		  <div style="float:left;">
+        <div id="WX_Tile1"></div>
+		  </div>
+		  <div style="float:right;">
+        <div id="WX_Tile2"></div>
+		  </div>
+	  </div>
+    <div id="WX_PaidSearch"></div>
+  </div>
+  <!-- New Ads -->
+</div>
+</div>
+<div id="WX_BottomLeaderboard"></div>
+
+		</form>
+	</div>
+
+	
+		<footer class="site-footer">
+			<div class="help-links">
+				<div class="container">
+					<a href="/About/Default.aspx">About Us</a>
+					<a href="https://advertising.weather.com/contact/" target="_blank">Advertise with Us</a>
+					<a href="/About/Contact.aspx">Contact Us</a>
+					
+					<a href="/Help/Default.aspx">Help</a>
+					<a href="http://www.aolnews.com" target="_blank">News</a>
+					<a href="http://www.aboutads.info/choices/" target="_blank" style="background: url(http://icons.wxug.com/i/misc/adChoices.png) no-repeat right; padding-right: 20px;">Ad Choices</a>
+				</div>
+			</div>
+			<div class="legal-links">
+				<div class="container">
+					<a href="/About/Terms.aspx">Terms of Use</a>
+					<a href="/About/Privacy.aspx">Privacy Statement</a>
+					<span>&copy;Copyright 2016 The Weather Company, LLC</span>
+					
+					<span>Version 4.6.201311.1</span>
+				</div>
+				<!-- MACHINE NAME: ICAST-WEB4 -->
+			</div>
+		</footer>
+	
+
+	<script type="text/javascript">
+	  var pageTracker = _gat._getTracker("UA-3434520-1");
+	  pageTracker._initData();
+	  pageTracker._trackPageview();
+	</script>
+	
+	
+  
+	<script type="text/javascript" src="http://images.intellicast.com/Scripts/core_20150225.js"></script>
+  
+  <script>
+    var cod = {
+      latitude: '33.72',
+      longitude: '73.06',
+      unit: 'F'
+    };
+  </script>
+  <script src="http://images.intellicast.com/Scripts/cod_20150330.js"></script>
+</body>
+</html>
